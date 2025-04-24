@@ -1,0 +1,4 @@
+SELECT (COUNT(?autores) AS ?Pesquisadores) WHERE {
+    ?artigos wdt:P2860 wd:Q56592766.
+    ?artigos wdt:P361 wd:Q18477654; wdt:P50 ?autores.
+}

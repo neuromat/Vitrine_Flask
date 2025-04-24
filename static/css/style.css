@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+header, footer {
+    background-color: #f0f8ff;
+    padding: 10px;
+    text-align: center;
+}
+.back-to-top {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #2a72d4;
+}
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+
+/* academic.css */
+section.academic {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border: 1px solid #b3e0ff;
+    border-radius: 8px;
+}

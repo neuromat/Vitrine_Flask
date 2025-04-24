@@ -1,0 +1,4 @@
+SELECT (COUNT(?artigos) AS ?Artigos) WHERE {
+    ?artigos wdt:P361 wd:Q18477654.
+    ?artigos wdt:P2860 wd:Q56592766.
+}

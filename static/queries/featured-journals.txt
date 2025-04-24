@@ -1,0 +1,4 @@
+SELECT DISTINCT (?artigos AS ?QID) ?artigosLabel WHERE {
+  ?artigos wdt:P921 wd:Q24575409.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "pt,en". }
+}
