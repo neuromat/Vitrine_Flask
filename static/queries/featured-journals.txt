@@ -1,4 +1,18 @@
-SELECT DISTINCT (?artigos AS ?QID) ?artigosLabel WHERE {
-  ?artigos wdt:P921 wd:Q24575409.
+# Query para Revistas Parceiras (não afiliadas ao NeuroMat) que publicaram sobre o Modelo Galves-Löcherbach
+# Retorna o QID da revista e seu label (nome)
+SELECT DISTINCT ?revista AS ?QID ?revistaLabel AS ?artigosLabel WHERE {
+  # Encontrar artigos que têm o Modelo Galves-Löcherbach (Q24575409) como assunto principal
+  ?artigo wdt:P921 wd:Q24575409.
+
+  # Encontrar a revista onde esses artigos foram publicados
+  ?artigo wdt:P1433 ?revista.
+
+  # Garantir que o artigo NÃO é parte do projeto NeuroMat (Q18477654)
+  FILTER NOT EXISTS {
+    ?artigo wdt:P361 wd:Q18477654.
+  }
+
+  # Obter o label (nome) da revista em português, ou inglês como fallback
   SERVICE wikibase:label { bd:serviceParam wikibase:language "pt,en". }
 }
+ORDER BY ?artigosLabel

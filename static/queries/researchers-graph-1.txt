@@ -1,0 +1,31 @@
+#defaultView:Map
+SELECT ?coordsLabel ?coords ?paisLabel WHERE {
+  ?artigos wdt:P361 wd:Q18477654;
+           wdt:P50 ?pesquisadores.
+
+  optional {
+    ?pesquisadores wdt:P1416 ?afiliacao.
+    ?afiliacao wdt:P625 ?coords.
+  }
+  optional {
+    ?pesquisadores wdt:P108 ?employer.
+    ?employer wdt:P625 ?coords.
+  }
+  optional {
+    ?pesquisadores wdt:P1416 ?afiliacao.
+    ?afiliacao wdt:P17 ?pais.
+    ?pais wdt:P625 ?coords.
+  }
+  optional {
+    ?pesquisadores wdt:P108 ?employer.
+    ?employer wdt:P17 ?pais.
+    ?pais wdt:P625 ?coords.
+  }
+  optional {
+    ?pesquisadores wdt:P185 ?doutor.
+    ?pesquisadores wdt:P27 ?pais.
+    ?pais wdt:P625 ?coords.
+  }
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt". }
+}

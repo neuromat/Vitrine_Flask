@@ -1,0 +1,12 @@
+SELECT (COUNT(DISTINCT ?pesquisador) AS ?Pesquisadores) (COUNT(DISTINCT ?artigo) AS ?Artigos) WHERE {
+  ?artigo wdt:P361 wd:Q18477654.
+
+  {
+    ?artigo wdt:P50 ?pesquisador.
+  }
+  UNION
+  {
+    ?artigo wdt:P2093 ?nomeAutor.
+    BIND(STR(?nomeAutor) AS ?pesquisador)
+  }
+}

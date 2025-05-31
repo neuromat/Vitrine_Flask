@@ -1,0 +1,19 @@
+#defaultView:BarChart
+SELECT DISTINCT ?Ano (COUNT(DISTINCT ?item) AS ?Número_Artigos) ?label WHERE {
+  ?item wdt:P361 wd:Q18477654;
+        wdt:P1433 ?revista;
+        wdt:P577 ?data_.
+
+  BIND(STR(YEAR(?data_)) AS ?Ano)
+  OPTIONAL {?revista wdt:P9683 ?qualis.
+            OPTIONAL{
+                ?qualis rdfs:label ?label_.
+                FILTER(LANG(?label_)="pt-br")
+            }
+            BIND(IF(wikibase:isSomeValue(?qualis),
+                    "Sem Cla",
+                    ?label_) AS ?label)
+  }
+
+  FILTER(str(?label)!="B3" && str(?label)!="B4" && str(?label)!="C" && str(?label)!="NP" && str(?label)!="Sem Cla").
+} GROUP BY ?Ano ?label

@@ -1,0 +1,38 @@
+#defaultView:BarChart
+SELECT ?Autoria  (COUNT(?Autoria) AS ?Numero_Artigos)  ?Qualis_Rank WHERE {
+  {
+    SELECT DISTINCT ?obras (COUNT(?pesquisadores) AS ?autoria) ?revista WHERE {
+      ?obras wdt:P361 wd:Q18477654.
+      ?obras wdt:P50 ?pesquisadores.
+      ?obras wdt:P1433 ?revista.
+
+      optional {
+        ?obras wdt:P2093 ?pesquisadores.
+      }
+   }
+   GROUP BY  ?obras ?autoria ?revista
+  }
+
+  BIND(
+    IF(?autoria = 1, "Único(a)",
+      IF(?autoria  = 2, "Dupla",
+        IF(?autoria = 3, "Tripla", ">3"))) AS ?Autoria).
+
+  OPTIONAL {?revista wdt:P9683 ?qualis.
+            OPTIONAL{
+                ?qualis rdfs:label ?label_.
+                FILTER(LANG(?label_)="pt-br")
+            }
+            BIND(IF(wikibase:isSomeValue(?qualis),
+                    "Sem Cla",
+                    ?label_) AS ?Qualis_Rank)
+  }
+
+     FILTER( str(?Qualis_Rank)!="B3" && str(?Qualis_Rank)!="B4"
+            && str(?Qualis_Rank)!="C" && str(?Qualis_Rank)!="NP" && str(?Qualis_Rank)!="Sem Cla").
+
+
+}
+  GROUP BY  ?Autoria ?Articles ?Qualis_Rank
+ORDER BY ?Qualis_Rank  ?Articles
+

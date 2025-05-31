@@ -1,0 +1,6 @@
+#defaultView:Table
+SELECT ?item ?itemLabel WHERE {
+  wd:Q18477654 wdt:P361* ?item.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt". }
+}
+LIMIT 5

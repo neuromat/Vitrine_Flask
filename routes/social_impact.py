@@ -1,4 +1,7 @@
+# routes/social_impact.py
+
 import pandas as pd
+import requests
 from flask import Blueprint, jsonify
 
 social_impact_bp = Blueprint('social_impact', __name__)
@@ -36,6 +39,35 @@ def gerar_resumo_altmetrics():
     Há também {int(wikipedia.sum())} artigos na Wikipédia que fazem uso da produção científica do NeuroMat.
     </p>
     """
+
+    # ---- NOVO BLOCO: impacto altmétrico do artigo específico ----
+    url_api = "https://api.altmetric.com/v1/doi/10.1007/S10955-013-0733-9"
+    try:
+        response = requests.get(url_api)
+        if response.status_code == 200:
+            dados_api = response.json()
+            titulo = dados_api.get("title", "Título não disponível")
+            autores = dados_api.get("authors", [])
+            tipo_producao = dados_api.get("type", "Tipo não disponível")
+            local_publicacao = dados_api.get("journal", "Local de publicação não disponível")
+            score = dados_api.get("score", "Score não disponível")
+            posts = dados_api.get("cited_by_posts_count", "Menções em postagens não disponíveis")
+            accounts = dados_api.get("cited_by_accounts_count", "Menções em contas não disponíveis")
+            wikipedia = dados_api.get("cited_by_wikipedia_count", "Menções em wikis não disponíveis")
+
+            resumo += f"""
+            <h3>Impacto altmétrico do NeuroMat</h3>
+            <p class="justify">
+            O artigo '<em>{titulo}</em>', publicado no <strong>{local_publicacao}</strong>, é a produção científica do tipo <strong>{tipo_producao.lower()}</strong> de maior impacto social no NeuroMat.
+            Com um <strong>Altmetric Attention Score</strong> de <strong>{score}</strong>, este trabalho foi produzido por {', '.join(autores) if autores else 'autores não disponíveis'}.
+            Ele possui <strong>{posts}</strong> citações em posts de blogs, <strong>{accounts}</strong> contas distintas o mencionaram e <strong>{wikipedia}</strong> páginas da Wikipédia fazem referência ao artigo.
+            </p>
+            """
+        else:
+            resumo += "<p>Não foi possível acessar os dados altmétricos do artigo em destaque no momento.</p>"
+    except Exception as e:
+        resumo += f"<p>Erro ao consultar Altmetric: {e}</p>"
+
     return resumo
 
 @social_impact_bp.route("/api/social-impact")

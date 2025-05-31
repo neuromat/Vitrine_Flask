@@ -3,7 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\arrig\OneDrive\Área de Trabalho\df_altmetric.csv">
+        <entry key="\data\df_altmetric.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
