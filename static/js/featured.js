@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         //Carregar queries de arquivos.txt
         const [qGraph, qCount] = await Promise.all([
-            fetch("/static/queries/featured-graph.txt").then(r => r.ok ? r.text() : Promise.reject("Erro ao carregar featured-graph.txt")), //grafo
+            fetch("/static/queries/featured-graph.txt").then(r => r.ok ? r.text() : Promise.reject("Erro ao carregar featured-graph.txt")), //grafo 1
             fetch("/static/queries/featured-count.txt").then(r => r.ok ? r.text() : Promise.reject("Erro ao carregar featured-count.txt")) //contagem de pesquisadores e artigos do neuromat para gerar parágrafo
         ]);
 

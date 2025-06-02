@@ -80,6 +80,6 @@ WHERE{
                       IF(?Num_citações>1,
                          "e3dc05",
                          IF(?Num_citações=1,
-                            "e37b05",
+                             "e37b05",
                             "e30505"))))))) AS ?rgb)
 }
