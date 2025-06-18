@@ -1,0 +1,4 @@
+# Conta o número total de artigos associados ao CEPID NeuroMat
+SELECT (COUNT(DISTINCT ?artigos) AS ?Artigos) WHERE {
+  ?artigos wdt:P361 wd:Q18477654.
+}

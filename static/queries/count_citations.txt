@@ -1,0 +1,5 @@
+# Conta quantos itens citam os artigos do CEPID NeuroMat
+SELECT (COUNT(DISTINCT ?itens) AS ?Citacoes) WHERE {
+  ?artigos wdt:P361 wd:Q18477654.
+  ?itens wdt:P2860 ?artigos.
+}

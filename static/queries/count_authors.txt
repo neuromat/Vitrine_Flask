@@ -1,0 +1,5 @@
+# Conta o número total de autores distintos de artigos do NeuroMat
+SELECT (COUNT(DISTINCT ?autor) AS ?autores) WHERE {
+  ?artigos wdt:P361 wd:Q18477654.
+  ?artigos wdt:P50 ?autor.
+}
