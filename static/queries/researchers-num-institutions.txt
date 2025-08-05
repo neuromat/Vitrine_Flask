@@ -1,0 +1,6 @@
+SELECT (COUNT(DISTINCT ?instituto) AS ?num_instituto) WHERE {
+  ?artigos wdt:P361 wd:Q18477654 .
+  ?artigos wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P106 wd:Q1650915.
+  ?pesquisador wdt:P108 ?instituto.
+}

@@ -16,7 +16,11 @@ def gerar_resumo_altmetrics(csv_path: str) -> str:
         'cited_by_gplus_count', 'cited_by_videos_count',
         'cited_by_wikipedia_count'
     ]
-
+    # Converte os valores da coluna para tipo numérico (float).
+    # Caso algum valor não possa ser convertido (por exemplo, strings inválidas ou dados corrompidos),
+    # o parâmetro `errors='coerce'` força a substituição por `NaN`.
+    # Em seguida, `fillna(0.0)` substitui esses `NaN` por 0.0, garantindo que a coluna seja numérica
+    # e que operações matemáticas (como soma) possam ser realizadas quando necessária
     for coluna in colunas:
         df[coluna] = pd.to_numeric(df[coluna], errors='coerce').fillna(0.0)
 

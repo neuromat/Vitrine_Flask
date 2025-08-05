@@ -1,0 +1,6 @@
+# Conta quantas pessoas são do gênero masculino
+SELECT (COUNT(?pesquisador) AS ?valor) WHERE {
+  ?obra wdt:P361 wd:Q18477654 ;
+        wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P21 wd:Q6581097.  # masculino
+}

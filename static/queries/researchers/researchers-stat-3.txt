@@ -1,0 +1,12 @@
+# Conta pesquisadores pós-doutorandos vinculados à FAPESP e instituições associadas ao NeuroMat
+SELECT (COUNT(?pesquisador) AS ?valor) WHERE {
+  ?artigos wdt:P361 wd:Q18477654 ;     # parte do projeto NeuroMat
+           wdt:P50 ?pesquisador.       # autor do artigo
+  ?pesquisador wdt:P106 wd:Q1650915 ;  # ocupação = pesquisador
+               wdt:P4598 ?FAPESP.      # financiamento FAPESP
+  {
+    ?pesquisador wdt:P108 wd:Q18477654.  # instituição = NeuroMat
+  } UNION {
+    ?pesquisador wdt:P108 wd:Q835960.    # ou vinculados à USP
+  }
+}

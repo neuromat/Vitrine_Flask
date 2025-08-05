@@ -1,0 +1,16 @@
+SELECT ?journalLabel (COUNT(?artigo) AS ?num_artigos) (SAMPLE(?qualisLabel) AS ?qualisLabel) WHERE {
+  ?artigo wdt:P361 wd:Q18477654 ;
+          wdt:P1433 ?journal .
+
+  OPTIONAL {
+    ?journal wdt:P9683 ?qualis .
+    ?qualis rdfs:label ?qualisLabel .
+    FILTER (lang(?qualisLabel) = "pt" || lang(?qualisLabel) = "en")
+  }
+
+  ?journal rdfs:label ?journalLabel .
+  FILTER (lang(?journalLabel) = "pt" || lang(?journalLabel) = "en")
+}
+GROUP BY ?journalLabel
+ORDER BY DESC(?num_artigos)
+LIMIT 3

@@ -1,4 +1,4 @@
-#query que mostra a distribuição da localização geográfica dos pesquisadores no mapa mundi
+#gráfico de mapa na seção "Pesquisadores"
 #defaultView:Map
 SELECT ?affiliation ?affiliationLabel ?country ?countryLabel ?coords WITH {
   SELECT DISTINCT ?researcher WHERE {

@@ -1,0 +1,4 @@
+# Coleta o número de pesquisadores associados ao NeuroMat
+SELECT (COUNT(?principais) AS ?valor) WHERE {
+  ?principais wdt:P1416 wd:Q18477654.  # afiliação como "associado"
+}

@@ -1,0 +1,9 @@
+# Conta pesquisadores com grau de mestre que são principais e associados
+SELECT (COUNT(?pesquisador) AS ?valor) WHERE {
+  ?artigos wdt:P361 wd:Q18477654 ;
+           wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P106 wd:Q1650915.
+  FILTER EXISTS { ?pesquisador wdt:P463 wd:Q18477654. }    # principais
+  FILTER EXISTS { ?pesquisador wdt:P1416 wd:Q18477654. }   # associados
+  FILTER EXISTS { ?pesquisador wdt:P185 ?d. }              # com orientador (proxy para mestre)
+}

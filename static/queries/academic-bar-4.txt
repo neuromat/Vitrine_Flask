@@ -1,10 +1,8 @@
 #defaultView:BarChart
-SELECT DISTINCT ?Ano (COUNT(?NeuroMat) AS ?Número_Temas_Principais) ?keyLabel WHERE {
-  ?NeuroMat wdt:P361 wd:Q18477654.
-  ?NeuroMat wdt:P577 ?dataTemp.
-  BIND(STR(YEAR(?dataTemp)) AS ?Ano)
-  ?NeuroMat wdt:P921 ?key.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "pt-br".}
-}
-GROUP BY ?key ?keyLabel ?Ano
-
+SELECT DISTINCT ?year (COUNT(?item) AS ?num_articles) ?keyword ?keywordLabel WHERE {
+  { ?item wdt:P361 wd:Q18477654; wdt:P921 ?keyword; wdt:P577 ?date_. }
+  UNION
+  { SERVICE wdsubgraph:scholarly_articles { ?item wdt:P361 wd:Q18477654; wdt:P921 ?keyword; wdt:P577 ?date_. } }
+  BIND(STR(YEAR(?date_)) AS ?year)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt-br,pt,en,es,fr,de,ja". }
+} GROUP BY ?keyword ?keywordLabel ?year

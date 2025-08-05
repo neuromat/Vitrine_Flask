@@ -1,0 +1,7 @@
+# Conta pesquisadores que são doutorandos (têm orientador)
+SELECT (COUNT(?pesquisador) AS ?valor) WHERE {
+  ?artigos wdt:P361 wd:Q18477654 ;
+           wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P185 ?orientador ;  # orientado por alguém (indicador de doutorado)
+               wdt:P106 wd:Q1650915.
+}

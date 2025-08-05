@@ -1,0 +1,7 @@
+SELECT (COUNT(DISTINCT ?pais) AS ?num_paises) WHERE {
+  ?artigos wdt:P361 wd:Q18477654 .
+  ?artigos wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P106 wd:Q1650915.
+  ?pesquisador wdt:P108 ?instituto.
+  ?instituto wdt:P17 ?pais.
+}

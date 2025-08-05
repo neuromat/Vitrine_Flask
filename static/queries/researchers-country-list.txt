@@ -1,0 +1,7 @@
+SELECT DISTINCT ?paisLabel WHERE {
+  ?artigos wdt:P361 wd:Q18477654 .
+  ?artigos wdt:P50 ?pesquisador.
+  ?pesquisador wdt:P108 ?instituto.
+  ?instituto wdt:P17 ?pais.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt". }
+}

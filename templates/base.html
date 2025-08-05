@@ -1,4 +1,6 @@
 <!-- base.html -->
+<!-- Serve como um esqueleto estrutural e não lógico compartilhado por todas as páginas do site.
+Este arquivo define o que é comum ao site, como cabeçalho, navegação, rodapé, carregamento de estilos e scripts. -->
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -20,6 +22,7 @@
         </nav>
     </header>
 
+   <!-- Local onde as páginas que herdaram o conteúdo são alocadas e injetam sem próprios conteúdos -->
     <main>
         {% block content %}{% endblock %}
         <a href="#top" class="back-to-top">Voltar a início</a>
@@ -28,9 +31,11 @@
     <footer>
         <p>2025 Vitrine NeuroMat</p>
     </footer>
-
+  <!-- chamada de scripts para que sejam usadas em todas as páginas -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/featured.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/researchers.js') }}"></script>
+
    <!--  <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> -->
 
 

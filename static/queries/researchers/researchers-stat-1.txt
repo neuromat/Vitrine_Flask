@@ -1,0 +1,6 @@
+# Coleta o número de pesquisadores principais vinculados ao NeuroMat
+
+SELECT (COUNT(?principais) AS ?valor) WHERE {
+  ?principais wdt:P463 wd:Q18477654.
+  OPTIONAL { ?principais wdt:P108 wd:Q18477654. }
+}
