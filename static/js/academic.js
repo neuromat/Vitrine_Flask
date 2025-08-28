@@ -58,9 +58,9 @@ const clean = q =>
       .replace(/\[\[1\]\]/g, artigos)
       .replace(/\[\[2\]\]/g, citacoes)
       .replace(/\[\[3\]\]/g, autores);
-
+    
     // 3) Gráficos
-    const iframe1 = `<iframe src="https://query.wikidata.org/embed.html#${encodeURIComponent(cq1)}" width="100%" height="500" style="border:none;" loading="lazy"></iframe>`;
+    const iframe1 = `<iframe src="https://query.wikidata.org/embed.html#defaultView:Graph%0A${encodeURIComponent(cq1)}" width="100%" height="500" style="border:none;" loading="lazy"></iframe>`;
     const iframe4 = `<iframe src="https://query.wikidata.org/embed.html#${encodeURIComponent(cq4)}" width="100%" height="500" style="border:none;" loading="lazy"></iframe>`;
 
     // 4) Renderização final
