@@ -1,4 +1,4 @@
-gráfico de barras que mostra a produção do NeuroMat por ano
+#gráfico de barras que mostra a produção do NeuroMat por ano
 #defaultView:BarChart
 SELECT ?year (COUNT(?item) AS ?num_articles)
 WHERE {
