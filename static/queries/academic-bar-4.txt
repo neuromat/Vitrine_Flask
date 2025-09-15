@@ -1,8 +1,12 @@
+gráfico de barras que mostra a produção do NeuroMat por ano
 #defaultView:BarChart
-SELECT DISTINCT ?year (COUNT(?item) AS ?num_articles) ?keyword ?keywordLabel WHERE {
-  { ?item wdt:P361 wd:Q18477654; wdt:P921 ?keyword; wdt:P577 ?date_. }
+SELECT ?year (COUNT(?item) AS ?num_articles)
+WHERE {
+  { ?item wdt:P361 wd:Q18477654; wdt:P577 ?date_. }
   UNION
-  { SERVICE wdsubgraph:scholarly_articles { ?item wdt:P361 wd:Q18477654; wdt:P921 ?keyword; wdt:P577 ?date_. } }
+  { SERVICE wdsubgraph:scholarly_articles { ?item wdt:P361 wd:Q18477654; wdt:P577 ?date_. } }
+  
   BIND(STR(YEAR(?date_)) AS ?year)
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt-br,pt,en,es,fr,de,ja". }
-} GROUP BY ?keyword ?keywordLabel ?year
+}
+GROUP BY ?year
+ORDER BY ?year
