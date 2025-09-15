@@ -1,3 +1,4 @@
+#grafo principal. Mostra a relação entre as citações do NeuroMat.
 #defaultView:Graph
 SELECT DISTINCT ?Artigo (?Nome_do_artigo AS ?ArtigoLabel) ?rgb ?Artigo_citado ?Num_citações
 WITH { # Get articles only once. While here, take the max_order of the authors (P50 and P2093)
