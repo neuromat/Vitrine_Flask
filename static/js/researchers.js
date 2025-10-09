@@ -1,5 +1,4 @@
 // Este script carrega a seção "Pesquisadores" dinamicamente a partir de HTML e consultas SPARQL
-// Atualizado em 4-8-25: removido as queries que só funcionam federedas
 // contém 2 gráficos nessa seção
 
 document.addEventListener("DOMContentLoaded", async function () {
