@@ -1,42 +1,51 @@
-<!-- base.html -->
+<!-- ABNT NBR 17225 (5.13.6) -->
 <!-- Serve como um esqueleto estrutural e não lógico compartilhado por todas as páginas do site.
 Este arquivo define o que é comum ao site, como cabeçalho, navegação, rodapé, carregamento de estilos e scripts. -->
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt"> <!-- ABNT 5.13.2 / WCAG 3.1.1 (A) -->
+
 <head>
-    <title>{% block title %}Default Title{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- ABNT 5.13.5 / WCAG 1.4.4 (AA), 1.4.10 (AA) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/accessibility.css') }}">
+
+    <title>{% block title %}Vitrine NeuroMat{% endblock %}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A Flask project showcasing academic content, researchers, and social impact initiatives.">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <header>
-        <h1>Vitrine NeuroMat</h1>
-        <nav>
-            <a href="#academic">Publicações Acadêmicas</a> |
-            <a href="#researchers">Pesquisadores</a> |
-            <a href="#socialimpact">Impacto Social</a> |
-            <a href="#featured">Artigo em destaque</a>
+  <header class="main-header">
+    <div class="header-content">
+        <a href="{{ url_for('home') }}" class="site-logo">
+            Vitrine NeuroMat
+        </a>
+
+        <nav role="navigation" class="main-nav">
+        <a href="#featured" class="nav-item {% if current_page == 'featured' %}active{% endif %}" {% if current_page == 'featured' %}aria-current="page"{% endif %}>Artigo em destaque</a>
+            <a href="#academic" class="nav-item {% if current_page == 'academic' %}active{% endif %}" {% if current_page == 'academic' %}aria-current="page"{% endif %}>PUBLICAÇÕES ACADÊMICAS</a>
+            <a href="#researchers" class="nav-item {% if current_page == 'researchers' %}active{% endif %}" {% if current_page == 'researchers' %}aria-current="page"{% endif %}>Pesquisadores</a>
+            <a href="#socialimpact" class="nav-item {% if current_page == 'socialimpact' %}active{% endif %}" {% if current_page == 'socialimpact' %}aria-current="page"{% endif %}>Impacto Social</a>
         </nav>
-    </header>
+    </div>
+</header>
 
    <!-- Local onde as páginas que herdaram o conteúdo são alocadas e injetam sem próprios conteúdos -->
     <main>
         {% block content %}{% endblock %}
-        <a href="#top" class="back-to-top">Voltar a início</a>
     </main>
 
     <footer>
         <p>2025 Vitrine NeuroMat</p>
+        <a href="#top" class="back-to-top">Voltar a início</a>
     </footer>
   <!-- chamada de scripts para que sejam usadas em todas as páginas -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/featured.js') }}"></script>
     <script src="{{ url_for('static', filename='js/researchers.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/navigation.js') }}"></script>
 
-   <!--  <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> -->
-
-
+ <!-- WCAG 4.1.3 – AA -->
+<div id="status-message" role="status" aria-live="polite" class="visually-hidden"></div>
 </body>
 </html>
