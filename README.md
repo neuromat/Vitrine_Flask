@@ -35,3 +35,4 @@ pip install -r requirements.txt
 ```sh
 nohup gunicorn --bind 0.0.0.0:8000 wsgi:app > gunicorn.log 2>&1 &
 ```
+
