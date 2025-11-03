@@ -1,10 +1,5 @@
-// static/js/researchers.js
-// ---------------------------------------------------------
-// Este script carrega a seção "Pesquisadores" dinamicamente
-// a partir de HTML e consultas SPARQL.
-// Atualizado em 4-8-25: removido as queries que só funcionam federadas
-// Contém 2 gráficos nesta seção
-// ---------------------------------------------------------
+// Este script carrega a seção "Pesquisadores" dinamicamente a partir de HTML e consultas SPARQL
+// contém 2 gráficos nessa seção
 
 document.addEventListener("DOMContentLoaded", async function () {
 
