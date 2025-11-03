@@ -1,0 +1,72 @@
+/* accessibility.css */
+
+/* Links, botões e campos devem ter indicador de foco visível */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #E3004C;   /* Azul de alto contraste */
+  outline-offset: 2px;          /* Distância do contorno */
+  box-shadow: 0 0 5px #E3004C;  /* Realce adicional */
+}
+
+body {
+  background-color: #F5F5F5;    /* Off-white - Contraste  com #2F3C4B */
+  color: #2F3C4B;              /* Texto principal - Contraste com #F5F5F5 */
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1rem;             /* ABNT 5.12.7 Texto redimensionado */
+  text-shadow: 1px 1px 2px #5a5a5a
+
+  /* Espaçamento */
+  line-height: 1.5;            /* ABNT 5.1.12 – Espaçamento entre linhas */ /* ABNT 5.12.7 Texto redimensionado */
+  letter-spacing: 0.012em;      /* ABNT 5.12.3 – Espaçamento entre letras  */
+  word-spacing: 0.16em;        /* ABNT 5.12.4 – Espaçamento entre palavras */
+
+  /* Espaçamento entre parágrafos (IMPORTANTE: não é definido no 'body', mas em 'p') */
+  /* Esta regra será para o p, não para o body diretamente */
+
+  /* Alinhamento e Largura (Seu valor já atende) */
+  text-align: left;            /* ABNT 5.12.5 – Alinhamento à esquerda */
+  max-width: 80ch;             /* ABNT 5.12.6 – Largura dos blocos de texto */
+
+  /* Centralização e Padding (boas práticas) */
+  margin: 0 auto;              /* Centraliza o bloco de texto na tela */
+  padding: 1rem;               /* Espaço interno para não colar na borda */
+}
+
+/* Adição NECESSÁRIA para o espaçamento entre parágrafos, conforme a ABNT NBR 17225 */
+p {
+  margin-bottom: 2em; /* ABNT 5.12.2 – Espaçamento entre os parágrafos */
+}
+
+/* Cor dos links (todos os <a> dentro do <body>) */
+body a {
+  color: #E3004C; /* Vermelho Framboesa */
+}
+
+body a:hover {
+  color: #004B61;
+  text-decoration: underline;
+}
+
+body a:focus {
+  outline: 2px solid #E3004C;
+  outline-offset: 2px;
+  color: #004B61;
+}
+
+body a:visited {
+  color: #A4508B;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  word-wrap: break-word; /* evita overflow horizontal */ /* ABNT 5.12.7 Texto redimensionado */
+}
+/* 5.1.7 / 5.1.8 / 5.1.9 – Conteúdo adicional (WCAG 1.4.13 – AA) */
+.tooltip:focus .tooltip-text,
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
