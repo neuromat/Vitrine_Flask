@@ -11,24 +11,13 @@
 // ---------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", async function () {
-
-    // 5.13.8 (4.1.3) Mensagens de status
-    // Função responsável por enviar mensagens acessíveis para leitores de tela
-    function showStatusMessage(message) {
-        const statusDiv = document.getElementById("status-message");
-        if (statusDiv) statusDiv.textContent = message;
-    }
-
     const introContainer = document.getElementById("intro-content");
     if (!introContainer) {
         console.error("Elemento #intro-content não encontrado.");
         return;
     }
 
-    // 5.13.8 (4.1.3) Mensagens de status
-    // Exibe mensagem inicial de carregamento e notifica tecnologias assistivas
     introContainer.innerHTML = "<p>Carregando introdução...</p>";
-    showStatusMessage("Carregando introdução...");
 
     const headers = { 'Accept': 'application/sparql-results+json' };
     const endpoint = "https://query.wikidata.org/sparql";
@@ -70,16 +59,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Insere o conteúdo processado dentro do introContainer
         introContainer.innerHTML = processedHtml;
 
-        // 5.13.8 (4.1.3) Mensagens de status
-        // Notifica sucesso do carregamento ao leitor de tela
-        showStatusMessage("Introdução carregada com sucesso.");
-
     } catch (error) {
         console.error("Erro ao carregar conteúdo da introdução:", error);
         introContainer.innerHTML = "<p>Não foi possível carregar os dados de introdução.</p>";
-
-        // 5.13.8 (4.1.3) Mensagens de status
-        // Informa a falha de carregamento de forma acessível
-        showStatusMessage("Não foi possível carregar os dados de introdução.");
     }
 });
