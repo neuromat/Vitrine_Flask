@@ -39,6 +39,7 @@ section.academic {
     padding: 15px;
     border: 1px solid #b3e0ff;
     border-radius: 8px;
+<<<<<<< HEAD
 }
 
 /* ----------------------------------------------------- */
@@ -184,4 +185,6 @@ input:focus,
 /* Estilo opcional para o ícone de alerta */
 .warning-box span {
     margin-right: 8px;
+=======
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt"> <head>
     <meta charset="UTF-8">
@@ -6,16 +7,40 @@
     <title>{% block title %}Vitrine NeuroMat{% endblock %}</title>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/accessibility.css') }}">
+=======
+<!-- base.html -->
+<!-- Serve como um esqueleto estrutural e não lógico compartilhado por todas as páginas do site.
+Este arquivo define o que é comum ao site, como cabeçalho, navegação, rodapé, carregamento de estilos e scripts. -->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>{% block title %}Default Title{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Flask project showcasing academic content, researchers, and social impact initiatives.">
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"> </head>
 
 <body>
+<<<<<<< HEAD
     <a href="#main-content" class="skip-link">Ir direto para o conteúdo principal</a>
 
     <header class="main-header">
         <div class="header-content">
             <h1 class="visually-hidden">Vitrine NeuroMat</h1>
             <a href="{{ url_for('home') }}" class="site-logo">Vitrine NeuroMat</a>
+=======
+    <header>
+        <h1>Vitrine NeuroMat</h1>
+        <nav>
+            <a href="#academic">Publicações Acadêmicas</a> |
+            <a href="#researchers">Pesquisadores</a> |
+            <a href="#socialimpact">Impacto Social</a> |
+            <a href="#featured">Artigo em destaque</a>
+        </nav>
+    </header>
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
 
             <nav role="navigation" class="main-nav" aria-label="Menu principal">
                 <a href="#featured" class="nav-item">Artigo em destaque</a>
@@ -28,15 +53,28 @@
 
     <main id="main-content">
         {% block content %}{% endblock %}
+        <a href="#top" class="back-to-top">Voltar a início</a>
     </main>
 
+<<<<<<< HEAD
     {% include 'partials/footer.html' %}
 
+=======
+    <footer>
+        <p>2025 Vitrine NeuroMat</p>
+    </footer>
+  <!-- chamada de scripts para que sejam usadas em todas as páginas -->
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/featured.js') }}"></script>
     <script src="{{ url_for('static', filename='js/researchers.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/navigation.js') }}"></script>
 
+<<<<<<< HEAD
     <div id="status-message" role="status" aria-live="polite" class="visually-hidden"></div>
+=======
+   <!--  <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> -->
+
+
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
 </body>
 </html>

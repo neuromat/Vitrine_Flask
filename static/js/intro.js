@@ -12,6 +12,7 @@
 // ---------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", async function () {
+<<<<<<< HEAD
     // ABNT 5.13.8 (WCAG 4.1.3) – Mensagens de status acessíveis
     function showStatusMessage(message) {
         const statusDiv = document.getElementById("status-message");
@@ -23,17 +24,21 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
     }
 
+=======
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     const introContainer = document.getElementById("intro-content");
     if (!introContainer) {
         console.error("Elemento #intro-content não encontrado.");
         return;
     }
 
+<<<<<<< HEAD
     // ---------------------------------------------------------
     // Mensagem inicial de carregamento e notificação acessível
     // ---------------------------------------------------------
+=======
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     introContainer.innerHTML = "<p>Carregando introdução...</p>";
-    showStatusMessage("Carregando introdução...");
 
     const headers = { 'Accept': 'application/sparql-results+json' };
     const endpoint = "https://query.wikidata.org/sparql";
@@ -85,6 +90,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         // ---------------------------------------------------------
         introContainer.innerHTML = processedHtml;
 
+<<<<<<< HEAD
         // Após o carregamento dinâmico, move o foco para o container
         // garantindo coerência de navegação por teclado e leitores de tela
         introContainer.focus();
@@ -102,5 +108,10 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Mensagem de erro acessível (ABNT 5.13.8)
         // ---------------------------------------------------------
         showStatusMessage("Não foi possível carregar os dados de introdução.");
+=======
+    } catch (error) {
+        console.error("Erro ao carregar conteúdo da introdução:", error);
+        introContainer.innerHTML = "<p>Não foi possível carregar os dados de introdução.</p>";
+>>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     }
 });
