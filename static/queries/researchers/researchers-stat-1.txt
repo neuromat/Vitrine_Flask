@@ -1,6 +1,12 @@
-# Coleta o número de pesquisadores principais vinculados ao NeuroMat
+# Coleta a quuantidade de instituições = pelo menos 30 instituições
+# Equivale ao holdplace [[1]] em: static/content/researchers/stats.html
 
-SELECT (COUNT(?principais) AS ?valor) WHERE {
-  ?principais wdt:P463 wd:Q18477654.
-  OPTIONAL { ?principais wdt:P108 wd:Q18477654. }
+SELECT (COUNT(DISTINCT ?area) AS ?valor) WHERE {
+  # 1. Encontra as pessoas (apenas Itens)
+  { ?artigo wdt:P361 wd:Q18477654; wdt:P50 ?pessoa. }
+  UNION
+  { ?pessoa wdt:P463|wdt:P1416|wdt:P108 wd:Q18477654. }
+
+  # 2. Descobre a área de atuação (P101)
+  ?pessoa wdt:P101 ?area .
 }

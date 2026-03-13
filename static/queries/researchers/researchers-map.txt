@@ -1,4 +1,28 @@
 #gráfico de mapa na seção "Pesquisadores"
+# EXPLICAÇÃO DA QUERY E REQUISITOS DE DADOS:
+#
+# 1. O QUE ESTA QUERY FAZ:
+#    - Mapeia a origem geográfica da produção científica vinculada ao NeuroMat.
+#    - Primeiro, identifica artigos/itens que fazem parte (P361) do NeuroMat.
+#    - Em seguida, identifica os autores (P50) desses artigos.
+#    - Busca onde esses autores trabalham ou se formaram (Afiliação/Empregador).
+#    - Por fim, extrai as coordenadas geográficas dessas instituições para plotar no mapa.
+#
+# 2. DECLARAÇÕES NECESSÁRIAS (O QUE PREENCHER NO WIKIDATA):
+#
+#    A. NO ITEM DO ARTIGO/PRODUÇÃO:
+#       - P361 (Parte de): Deve apontar para NeuroMat (Q18477654).
+#       - P50 (Autor): Deve apontar para o item do pesquisador (Q...).
+#
+#    B. NO ITEM DO PESQUISADOR:
+#       - P1416 (Afiliação) OU P108 (Empregador) OU P185 (Orientador):
+#         Deve apontar para uma instituição (ex: USP, UNICAMP).
+#
+#    C. NO ITEM DA INSTITUIÇÃO (Afiliação):
+#       - P625 (Coordenadas geográficas): Latitude e Longitude (Essencial para o ponto no mapa).
+#       - Se a instituição não tiver P625, a query busca o País (P17) e usa as coordenadas do centro do país.
+#
+# --------------------------------------------------------------------------------------------------
 #defaultView:Map
 SELECT ?affiliation ?affiliationLabel ?country ?countryLabel ?coords WITH {
   SELECT DISTINCT ?researcher WHERE {

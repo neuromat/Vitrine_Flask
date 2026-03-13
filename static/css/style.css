@@ -1,25 +1,37 @@
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-}
-header, footer {
-    background-color: #f0f8ff;
-    padding: 10px;
-    text-align: center;
-}
-.back-to-top {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #2a72d4;
-}
-.back-to-top:hover {
-    text-decoration: underline;
+/* -----------------------------------------------------
+   VARIAVEIS DE CORES (Para consistência)
+   Deve ser definido no :root ou no seletor que abrange a aplicação,
+   caso não esteja definido globalmente.
+----------------------------------------------------- */
+:root {
+    --verde-principal: #00D28E;
+    --cinza-escuro: #2F3C4B;
+    --vermelho-framboesa: #E3004C;
+    --off-white: #F5F5F5;
+    --preto-forte: #000000;
 }
 
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: var(--cinza-escuro, #2F3C4B);
+    background-color: var(--off-white, #F5F5F5);
+
+    padding: 1rem;
+    max-width: 80ch; /* ABNT 5.12.6*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+/* Indicador de foco universal */
+:focus {
+    outline: 3px solid var(--verde-principal, #00D28E);
+    outline-offset: 2px;
+}
 
 /* academic.css */
 section.academic {
@@ -29,40 +41,27 @@ section.academic {
     border-radius: 8px;
 }
 
-/* Paleta de Cores (Referência):
-    --verde-principal: #00D28E;
-    --cinza-escuro: #2F3C4B;
-    --vermelho-framboesa: #E3004C;
-    --off-white: #F5F5F5;
-*/
-
 /* ----------------------------------------------------- */
 /* ESTILOS DO CABEÇALHO (HEADER) */
 /* ----------------------------------------------------- */
 
 .main-header {
-    /* Cor branca/off-white de fundo */
     background-color: var(--off-white, #F5F5F5);
-
-    /* Linha sutil de contraste no topo */
-    border-top: 5px solid var(--preto, #000000);
-
-    /* Sombra suave na parte inferior para dar profundidade (opcional) */
+    border-top: 5px solid var(--preto-forte, #000000);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-
-    padding: 0 1.5rem; /* Padding lateral */
-    position: sticky; /* Mantém o menu fixo no topo ao rolar */
+    padding: 0 1.5rem;
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
 
 .header-content {
-    display: flex; /* Flexbox para alinhar logo e navegação */
-    justify-content: space-between; /* Empurra o logo para esquerda e o menu para direita */
-    align-items: center; /* Centraliza verticalmente */
-    height: 70px; /* Altura padrão do cabeçalho */
-    max-width: 1400px; /* Limite a largura do conteúdo interno */
-    margin: 0 auto; /* Centraliza o conteúdo */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* ----------------------------------------------------- */
@@ -70,69 +69,36 @@ section.academic {
 /* ----------------------------------------------------- */
 
 .site-logo {
-    font-family: Helvetica;
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: var(--preto, #000000);
-    text-decoration: none; /* Remove o sublinhado */
-    letter-spacing: -0.5px;
-    padding: 0.5rem 0;
-    line-height: 1;
-    display: flex; /* Mantém o Flexbox para alinhar as sub-partes do logo */
+    display: flex;
     align-items: center;
-    /* Configurações do link (Elemento <a>) */
-    text-decoration: none; /* Remove o sublinhado no estado normal */
-    color: var(--cinza-escuro, #2F3C4B); /* Cor do texto (muito escuro, quase preto) */
-    /* Reseta qualquer estilo de navegação que possa ter sido herdado */
-    padding: 0;
-    border-bottom: none !important; /* Anula qualquer borda inferior de navegação */
-    height: auto;
-
-}
-/* Garante que o sublinhado e a cor não mudem nos estados de interação */
-.site-logo:hover,
-.site-logo:focus {
-    text-decoration: none; /* Garante que o sublinhado NUNCA apareça */
-    color: var(--cinza-escuro, #2F3C4B); /* Mantém a cor preto */
-    border-bottom: none; /* Garante que a linha de navegação não apareça */
-    outline: none; /* Remove o contorno de foco do navegador */
-}
-.site-logo,
-.site-logo:visited {
-    /* Define a cor do link principal do logo (elemento <a>) */
-    color: var(--cinza-escuro, #2F3C4B);
     text-decoration: none;
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.site-logo:hover,
+.site-logo:focus,
+.site-logo:visited {
+    text-decoration: none;
+    color: var(--cinza-escuro);
 }
 
 .logo-name {
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    /* Força o preto para o nome do logo */
-    color: #000000;
+    color: var(--preto-forte);
     line-height: 1;
     margin-right: 0.8rem;
 }
 
-/* GARANTE QUE A COR PRETA PERMANEÇA EM TODOS OS ESTADOS DE INTERAÇÃO NO NOME */
-/* Isto anula qualquer mudança de cor no :hover, :focus, :active, e especialmente no :visited */
 .site-logo:hover .logo-name,
 .site-logo:focus .logo-name,
 .site-logo:active .logo-name,
 .site-logo:visited .logo-name {
-    color: #000000; /* Mantém a cor preta em todos os estados */
-    text-decoration: none; /* Garante que não apareça sublinhado */
-}
-
-/* ESTILO ESPECÍFICO */
-.logo-name {
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    /* Esta é a parte que garante o preto forte para o título 'NeuroMat' */
-    color: var(--preto-forte, #000000);
-    line-height: 1;
-    margin-right: 0.8rem;
+    color: var(--preto-forte);
 }
 
 /* ----------------------------------------------------- */
@@ -140,31 +106,82 @@ section.academic {
 /* ----------------------------------------------------- */
 
 .main-nav {
-    display: flex; /* Flexbox para alinhar os itens do menu lado a lado */
+    display: flex;
     align-items: center;
-    gap: 1.5rem; /* Espaçamento entre os itens do menu */
+    gap: 1.5rem;
 }
 
-
-.nav-item { /* Controla o menu principal */
-    font-family: 'Open Sans', Helvetica, sans-serif; /* Fonte legível */
-    font-size: 0.8rem;
+.nav-item {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 550;
     text-decoration: none;
-    color: var(--cinza-escuro, #2F3C4B); /* Cor neutra para itens inativos (alto contraste) */
+    color: var(--cinza-escuro);
     border-bottom: 3px solid transparent;
-    padding: 24px 0; /* Padding vertical grande para área de clique */
-    transition: color 0.2s ease, border-bottom 0.2s ease; /* Transição suave */
+    padding: 24px 0;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Estilo para links ativos e em foco */
-.nav-item:focus,
+/* Estado de foco/hover/selecionado */
 .nav-item:hover,
+.nav-item:focus,
 .nav-item.active,
 .main-nav a[aria-current="page"] {
+    color: var(--vermelho-framboesa);
+    border-bottom: 3px solid var(--vermelho-framboesa);
+    font-weight: 700;
+}
 
-    color: var(--vermelho-framboesa, #E3004C);    /* O sublinhado vermelho-framboesa */
-    border-bottom: 3px solid var(--vermelho-framboesa, #E3004C);  /* Borda é definida na cor visível */
-    outline: none;  /* Garante que o indicador de foco de acessibilidade não seja sobreposto */
+/* Evitar foco em elementos tabindex -1 */
+[tabindex="-1"]:focus {
+    outline: none !important;
+}
+
+/* Reforço do foco verde ABNT */
+a:focus,
+button:focus,
+input:focus,
+[tabindex]:focus,
+:focus:not([tabindex="-1"]) {
+    outline: 3px solid var(--verde-principal) !important;
+    outline-offset: 2px !important;
+}
+
+/* ----------------------------------------------------- */
+/* ACESSIBILIDADE - Classe para ocultar visualmente */
+/* ----------------------------------------------------- */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Estilização da caixa de aviso */
+.warning-box {
+    border: 1px solid #ccc;       /* Borda fina e cinza */
+    padding: 10px 15px;           /* Espaçamento interno */
+    margin: 20px 0;               /* Margem para não colar em outros elementos */
+    border-radius: 4px;           /* Cantos levemente arredondados */
+    background-color: #f9f9f9;    /* Um fundo quase branco para dar contraste */
+
+    /* Fonte menor que o texto padrão */
+    font-size: 0.85rem;
+    color: #555;                  /* Cor do texto um pouco mais suave */
+    line-height: 1.4;             /* Melhora a leitura do texto menor */
+}
+
+/* Estilo opcional para o ícone de alerta */
+.warning-box span {
+    margin-right: 8px;
 }

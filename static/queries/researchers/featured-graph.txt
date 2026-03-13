@@ -1,0 +1,32 @@
+SELECT ?Artigo ?ArtigoLabel ?autor ?autorLabel ?nomeAutor ?ordem ?data ?Artigo_citado
+WHERE {
+  # Artigos NeuroMat
+  ?Artigo wdt:P361 wd:Q18477654.
+
+  # Data
+  OPTIONAL { ?Artigo wdt:P577 ?data. }
+
+  # Autores via P50 (item)
+  OPTIONAL {
+    ?Artigo p:P50 ?s.
+    ?s ps:P50 ?autor.
+    OPTIONAL { ?s pq:P1545 ?ordem. }
+  }
+
+  # Autores via P2093 (string)
+  OPTIONAL {
+    ?Artigo p:P2093 ?s2.
+    ?s2 ps:P2093 ?nomeAutor.
+    OPTIONAL { ?s2 pq:P1545 ?ordem. }
+  }
+
+  # Citações internas
+  OPTIONAL {
+    ?Artigo wdt:P2860 ?Artigo_citado.
+    ?Artigo_citado wdt:P361 wd:Q18477654.
+  }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "pt,en".
+  }
+}

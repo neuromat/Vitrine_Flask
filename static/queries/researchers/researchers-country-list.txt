@@ -1,3 +1,4 @@
+# Busca paises - funciona só no endpoint principal
 SELECT DISTINCT ?paisLabel WHERE {
   ?artigos wdt:P361 wd:Q18477654 ;
            wdt:P50 ?pesquisador.

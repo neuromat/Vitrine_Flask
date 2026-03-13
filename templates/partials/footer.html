@@ -1,0 +1,42 @@
+<footer>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+
+   <div class="footer-container">
+       <div class="footer-col">
+           <h4>Contato</h4>
+           <p><a href="mailto:neuromat@numec.prp.usp.br" class="footer-link">neuromat@numec.prp.usp.br</a></p>
+       </div>
+
+       <div class="footer-col">
+           <h4>Quem somos</h4>
+           <div class="help-mechanism">
+                <a href="https://neuromat.numec.prp.usp.br/team/" class="footer-link btn-team">Conheça a equipe</a>
+           </div>
+       </div>
+
+       <div class="footer-col">
+           <h4 class="mt-small">Iniciativa</h4>
+           <img src="{{ url_for('static', filename='images/logo_usp_branco.png') }}"
+                class="footer-logo"
+                alt="Logo da realização: NeuroMat">
+
+            <h4 class="mt-small">Apoio</h4>
+           <img src="{{ url_for('static', filename='images/logo_fapesp_branco.png') }}"
+                class="footer-logo"
+                alt="Logo do apoio: FAPESP">
+
+           <p class="legal-text">
+               Processo nº 2013/07699-0<br>
+               Processo nº 24/05406-0
+           </p>
+       </div>
+   </div>
+
+   <div class="footer-bottom">
+       <p>2025 Vitrine NeuroMat - This site content is licensed under a Creative Commons Attributions 4.0</p>
+       <nav aria-label="Navegação de rodapé">
+           <a href="{{ url_for('sitemap') }}" class="footer-link">Mapa do Site</a>
+           <a href="#top" class="back-to-top footer-link">Voltar ao início</a>
+       </nav>
+   </div>
+</footer>

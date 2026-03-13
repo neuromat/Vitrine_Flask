@@ -1,4 +1,25 @@
 # Coleta o número de pesquisadores associados ao NeuroMat
-SELECT (COUNT(?principais) AS ?valor) WHERE {
-  ?principais wdt:P1416 wd:Q18477654.  # afiliação como "associado"
+SELECT (COUNT(DISTINCT ?identificadorUnico) AS ?valor) WHERE {
+  {
+    # GRUPO A: Itens (Pessoas com QID) (Produção científica -> Pessoa)
+    ?artigo wdt:P361 wd:Q18477654 ; wdt:P50 ?pessoa .
+    ?pessoa wdt:P31 wd:Q5 .
+
+    BIND(STR(?pessoa) AS ?identificadorUnico)
+  }
+  UNION
+  {
+    # GRUPO B: strings (nomes em texto)
+    ?artigo wdt:P361 wd:Q18477654 ; wdt:P2093 ?nomeString .
+
+    # Transforma tudo em minúsculo e remove espaços nas pontas
+    BIND(LCASE(STR(?nomeString)) AS ?identificadorUnico)
+  }
+  UNION
+  {
+    # GRUPO C: classificado como parte do NeuroMat (Pessoa -> NeuroMat)
+    ?pessoa wdt:P463|wdt:P1416|wdt:P108 wd:Q18477654 .
+    ?pessoa wdt:P31 wd:Q5 .
+    BIND(STR(?pessoa) AS ?identificadorUnico)
+  }
 }

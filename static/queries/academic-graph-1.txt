@@ -1,22 +1,25 @@
-#query que mostra a distribuição da localização geográfica dos pesquisadores no mapa mundi
-#defaultView:Map
-SELECT ?affiliation ?affiliationLabel ?country ?countryLabel ?coords WITH {
-  SELECT DISTINCT ?researcher WHERE {
-    { ?item wdt:P361 wd:Q18477654; wdt:P50 ?researcher. }
-    UNION
-    { SERVICE wdsubgraph:scholarly_articles { ?item wdt:P361 wd:Q18477654; wdt:P50 ?researcher. } }
-  }
-} AS %researchers
-WITH {
-  SELECT DISTINCT ?researcher ?affiliation WHERE {
-    INCLUDE %researchers.
-    ?researcher wdt:P1416|wdt:P108|wdt:P185 ?affiliation.
-  }
-} AS %affiliation
+#defaultView:AreaChart
+SELECT ?Autores (COUNT(?artigo) AS ?quantidade_artigos)
 WHERE {
-  INCLUDE %affiliation.
-  { ?affiliation wdt:P625 ?coords. }
-  UNION
-  { FILTER NOT EXISTS { ?affiliation wdt:P625 []. } ?affiliation wdt:P17|wdt:P27 ?country. ?country wdt:P625 ?coords. }
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],pt-br,pt,en,es,fr,de,ja". }
+  {
+    SELECT ?artigo (COUNT(DISTINCT ?autor) AS ?Autores)
+    WHERE {
+      # 1. Identifica os artigos da coleção
+      ?artigo wdt:P361 wd:Q18477654 .
+
+      # 2. Identifica os autores desses artigos
+      ?artigo wdt:P50 ?autor .
+
+      # 3. Filtro de Segurança: Garante que o autor tenha vínculo com a coleção
+      # Foi usada uma subquery simples para validar o autor, o que é mais rápido que um JOIN de obras.
+      FILTER EXISTS {
+        ?any_obra wdt:P361 wd:Q18477654 ;
+                  wdt:P50 ?autor .
+      }
+    }
+    GROUP BY ?artigo
+    HAVING(?Autores > 1)
+  }
 }
+GROUP BY ?Autores
+ORDER BY ?Autores

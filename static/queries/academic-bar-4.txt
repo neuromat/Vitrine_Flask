@@ -1,12 +1,13 @@
-#gráfico de barras que mostra a produção do NeuroMat por ano
 #defaultView:BarChart
-SELECT ?year (COUNT(?item) AS ?num_articles)
+SELECT ?anos (COUNT(DISTINCT ?item) AS ?Produção) ?legenda
 WHERE {
-  { ?item wdt:P361 wd:Q18477654; wdt:P577 ?date_. }
-  UNION
-  { SERVICE wdsubgraph:scholarly_articles { ?item wdt:P361 wd:Q18477654; wdt:P577 ?date_. } }
-  
-  BIND(STR(YEAR(?date_)) AS ?year)
+  ?item wdt:P361 wd:Q18477654 ;
+        wdt:P577 ?date .
+
+  BIND(STR(YEAR(?date)) AS ?anos)
+
+  #substitui o "All" pela palavra "NeuroMat"
+  BIND("NeuroMat" AS ?legenda)
 }
-GROUP BY ?year
-ORDER BY ?year
+GROUP BY ?anos ?legenda
+ORDER BY ?anos
