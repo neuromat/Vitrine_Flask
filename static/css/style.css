@@ -39,7 +39,6 @@ section.academic {
     padding: 15px;
     border: 1px solid #b3e0ff;
     border-radius: 8px;
-<<<<<<< HEAD
 }
 
 /* ----------------------------------------------------- */
@@ -170,21 +169,58 @@ input:focus,
 
 /* Estilização da caixa de aviso */
 .warning-box {
-    border: 1px solid #ccc;       /* Borda fina e cinza */
-    padding: 10px 15px;           /* Espaçamento interno */
-    margin: 20px 0;               /* Margem para não colar em outros elementos */
-    border-radius: 4px;           /* Cantos levemente arredondados */
-    background-color: #f9f9f9;    /* Um fundo quase branco para dar contraste */
-
-    /* Fonte menor que o texto padrão */
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
     font-size: 0.85rem;
-    color: #555;                  /* Cor do texto um pouco mais suave */
-    line-height: 1.4;             /* Melhora a leitura do texto menor */
+    color: #555;
+    line-height: 1.4;
 }
 
-/* Estilo opcional para o ícone de alerta */
 .warning-box span {
     margin-right: 8px;
-=======
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
+}
+
+
+/* ----------------------------------------------------- */
+/* RESPONSIVIDADE (MOBILE / TELAS MENORES) */
+/* ----------------------------------------------------- */
+@media (max-width: 800px) {
+
+    /* Altera o cabeçalho para não ter altura fixa e quebrar os elementos */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    /* Ajusta o tamanho da fonte do Logo para não ocupar muito espaço */
+    .site-logo {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    /* Transforma o menu em uma barra de rolagem horizontal */
+    .main-nav {
+        width: 100%;
+        gap: 1.2rem;
+        overflow-x: auto; /* Permite rolar os links para os lados */
+        -webkit-overflow-scrolling: touch; /* Melhora a fluidez no iOS */
+
+        /* Oculta a barra de rolagem visual, mantendo a função */
+        scrollbar-width: none; /* Firefox */
+    }
+    .main-nav::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge */
+    }
+
+    /* Impede que o texto dos links se quebre em várias linhas */
+    .nav-item {
+        white-space: nowrap;
+        padding: 15px 0; /* Reduz a altura para caber melhor na tela */
+        flex-shrink: 0;
+    }
 }

@@ -1,6 +1,5 @@
 // static/js/featured.js
-<<<<<<< HEAD
-// Carrega a query do grafo em static/queries/
+// 27-05: Carrega a query de contagem de arquivo .txt em static/queries/
 // Atualizado conforme ABNT NBR 17225:2025 – Itens 5.1.15 (foco visível) e 5.13.8 (mensagens de status)
 
 document.addEventListener("DOMContentLoaded", async function () {
@@ -17,21 +16,13 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
     }
 
-=======
-// 27-05: Carrega a query de contagem de arquivo .txt em static/queries/
-
-document.addEventListener("DOMContentLoaded", async function () {
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     const container = document.getElementById("featured-article-content");
     if (!container) {
         console.error("Elemento #featured-article-content não encontrado.");
         return;
     }
 
-<<<<<<< HEAD
     // Mensagem inicial de carregamento
-=======
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     container.innerHTML = "<p>Carregando conteúdo do artigo em destaque...</p>";
 
     try {
@@ -59,7 +50,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         const pesquisadores = dataCount.results.bindings[0].Pesquisadores.value;
         const artigos = dataCount.results.bindings[0].Artigos.value;
 
-<<<<<<< HEAD
         // ---------------------------------------------------------
         // ABNT 5.13.3 / WCAG 3.1.2 – Conteúdo multilíngue e contexto
         // ---------------------------------------------------------
@@ -90,52 +80,38 @@ document.addEventListener("DOMContentLoaded", async function () {
                 As cores dos nós variam conforme o número de citações internas, indo do vermelho (menos citado) ao roxo (mais citado).
                 Os rótulos mostram o nome do autor principal e o ano de publicação, permitindo observar a evolução das colaborações e os artigos mais influentes dentro da rede.
           </p>
-            <div id="iframe-container" aria-label="Visualização do grafo de produção científica do NeuroMat" role="region" tabindex="-1"></div>
-            <iframe
-                title="grafo interativo com relação da produção científica do NeuroMat"
-                aria-describedby="descricao-grafo"
-                src="${iframeSrc}"
-                width="100%"
-                height="500"
-                style="border: none;"
-                loading="lazy"
-                tabindex="-1"
-            ></iframe>
 
-            <div class="warning-box">
-                <p role="alert">
-                <span aria-hidden="true">⚠️</span>
-                Os dados apresentados nos gráficos são obtidos dinamicamente da Wikidata por meio do endpoint <code>query-scholarly.wikidata.org</code>,
-                e podem apresentar divergências de informação.
-                </div>
+           <p>
+               <a href="https://query-scholarly.wikidata.org/#${encodeURIComponent(cleanedQuery)}" target="_blank" rel="noopener noreferrer" title="Abre em nova aba">Experimente a consulta completa!</a>
            </p>
-        `;
-        container.focus();    // ABNT 5.1.15 – Foco visível e coerência de navegação
-        showStatusMessage("Conteúdo do artigo em destaque carregado com sucesso.");
-=======
-        container.innerHTML = `
-            <p>&nbsp; O artigo <a href='https://www.wikidata.org/wiki/Q56592766' target='_blank'>Infinite Systems of Interacting Chains with Memory of Variable Length—A Stochastic Model for Biological Neural Nets</a>, escrito por <a href='https://www.wikidata.org/wiki/Q17489997' target='_blank'>Antonio Galves</a> e <a href='https://www.wikidata.org/wiki/Q59267761' target='_blank'>Eva Löcherbach</a> em 2013, constitui a pedra angular do <a href='https://www.wikidata.org/wiki/Q18477654' target='_blank'>Centro de Pesquisa, Inovação e Difusão em Neuromatemática (CEPID NeuroMat)</a>. Este trabalho introduziu um novo modelo para redes neurais e lançou uma nova linha de investigação.</p>
-            <p>&nbsp; No contexto do CEPID NeuroMat, participaram desta linha <strong>${pesquisadores}</strong> pesquisadores que produziram <strong>${artigos}</strong> artigos com base no modelo de 2013 ou contribuições posteriores. O modelo fundador do NeuroMat, chamado <a href='https://www.wikidata.org/wiki/Q24575409'>Modelo Galves-Löcherbach</a>, foi também o objeto de análise de publicações não filiadas ao NeuroMat, como: <a href='https://www.wikidata.org/wiki/Q98839723' target='_blank'>Replica-Mean-Field Limits for Intensity-Based Neural Networks</a>.</p>
-            <p><em>⚠️ Os dados apresentados são obtidos dinamicamente do endpoint <code>query-scholarly.wikidata.org</code>, que está em desenvolvimento e pode conter informações incompletas ou inconsistentes.</em></p>
-            <p><a href="https://query-scholarly.wikidata.org/#${encodeURIComponent(cleanedQuery)}" target="_blank">Experimente a consulta completa!</a></p>
-            <div id="iframe-container">
+
+            <div id="iframe-container" aria-label="Visualização do grafo de produção científica do NeuroMat" role="region" tabindex="-1">
                 <iframe
+                    title="grafo interativo com relação da produção científica do NeuroMat"
+                    aria-describedby="descricao-grafo"
                     src="${iframeSrc}"
                     width="100%"
                     height="500"
                     style="border: none;"
                     loading="lazy"
+                    tabindex="-1"
                 ></iframe>
             </div>
+
+            <div class="warning-box" role="alert">
+                <p>
+                    <span aria-hidden="true">⚠️</span>
+                    Os dados apresentados nos gráficos são obtidos dinamicamente da Wikidata por meio do endpoint <code>query-scholarly.wikidata.org</code>,
+                    e podem apresentar divergências de informação.
+                </p>
+            </div>
         `;
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
+        container.focus();    // ABNT 5.1.15 – Foco visível e coerência de navegação
+        showStatusMessage("Conteúdo do artigo em destaque carregado com sucesso.");
 
     } catch (error) {
         console.error("Erro ao carregar conteúdo do artigo em destaque:", error);
         container.innerHTML = "<p>Não foi possível carregar os dados do artigo em destaque.</p>";
-<<<<<<< HEAD
         showStatusMessage("Não foi possível carregar os dados do artigo em destaque.");
-=======
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
     }
 });

@@ -9,7 +9,6 @@
 // ---------------------------------------------------------
 
 document.addEventListener("DOMContentLoaded", async function () {
-<<<<<<< HEAD
 
   // 5.13.8 (WCAG 4.1.3) – Mensagens de status acessíveis
   function showStatusMessage(message) {
@@ -21,21 +20,16 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
 
-=======
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
   const container = document.getElementById("researchers-content");
   if (!container) {
     console.error("Elemento #researchers-content não encontrado.");
     return;
   }
 
-<<<<<<< HEAD
   // Mensagem inicial de carregamento
   container.innerHTML = `<p>Carregando dados dos pesquisadores...</p>`;
   showStatusMessage("Carregando dados dos pesquisadores...");
 
-=======
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
   const endpoint = "https://query.wikidata.org/sparql";
   const scholarlyEndpoint = "https://query-scholarly.wikidata.org/sparql";
   const headers = { 'Accept': 'application/sparql-results+json' };
@@ -112,8 +106,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       .replace('[[1]]', getCountValue(0)) // Query 1 (Total Pessoas)
       .replace('[[2]]', getCountValue(1)) // Query 2 (Instituições)
       .replace('[[3]]', getCountValue(2)) // Query 3 (Áreas)
-
-<<<<<<< HEAD
       // -- AQUI ENTRAM OS ASSUNTOS DA QUERY 4 --
       // Se o seu HTML tiver [[V]], [[W]], etc:
       .replace('[[V]]', safeSubject(0))
@@ -121,14 +113,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       .replace('[[X]]', safeSubject(2))
       .replace('[[Y]]', safeSubject(3))
       .replace('[[Z]]', safeSubject(4))
-=======
-    // Gera o gráfico do mapa apenas
-    const iframeMap = `<iframe src="https://query.wikidata.org/embed.html#${encodeURIComponent(qMap)}" width="100%" height="500" style="border:none;" loading="lazy"></iframe>`;
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
-
       // Fallback: Se o seu HTML ainda usa [[4]], coloca a lista inteira separada por vírgula
       .replace('[[4]]', subjectsList.join(', '))
-
       .replace('[[5]]', getCountValue(4)) // Mantido conforme seu pedido
       .replace('[[6]]', getCountValue(5))
       .replace('[[7]]', getCountValue(6));
@@ -165,18 +151,12 @@ document.addEventListener("DOMContentLoaded", async function () {
       ${statsRender}
     `;
 
-<<<<<<< HEAD
-      // 5.13.8 – Mensagem de sucesso acessível
+    // 5.13.8 – Mensagem de sucesso acessível
     showStatusMessage("Dados dos pesquisadores carregados com sucesso.");
 
   } catch (err) {
     console.error("Erro na seção Pesquisadores:", err);
     container.innerHTML = `<p>Erro ao carregar dados da seção Pesquisadores.</p>`;
     showStatusMessage("Não foi possível carregar os dados da seção Pesquisadores.");
-=======
-  } catch (err) {
-    console.error("Erro na seção Pesquisadores:", err);
-    container.innerHTML = `<p>Erro ao carregar dados da seção Pesquisadores.</p>`;
->>>>>>> 3272b34dec1603fb9db07a23264867b8090f1f7d
   }
 });
