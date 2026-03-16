@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Mapa do Site - Vitrine NeuroMat{% endblock %}
+
+{% block content %}
+<section class="container" style="padding: 2rem 1rem;">
+
+    <nav aria-label="Migalhas de pão" style="margin-bottom: 20px;">
+        <ol style="list-style: none; padding: 0; display: flex; gap: 8px;">
+            <li><a href="{{ url_for('home') }}">Início</a></li>
+            <li aria-hidden="true">/</li>
+            <li><span aria-current="page" style="font-weight: bold;">Mapa do Site</span></li>
+        </ol>
+    </nav>
+
+    <h1>Mapa do Site</h1>
+    <p>Utilize os links abaixo para navegar pelas seções do projeto.</p>
+
+    <ul style="line-height: 2;">
+        <li><strong>Seções Principais</strong>
+            <ul>
+                <li><a href="{{ url_for('home') }}#featured">Artigo em Destaque</a></li>
+                <li><a href="{{ url_for('home') }}#academic">Publicações Acadêmicas</a></li>
+                <li><a href="{{ url_for('home') }}#researchers">Pesquisadores</a></li>
+                <li><a href="{{ url_for('home') }}#socialimpact">Impacto Social</a></li>
+            </ul>
+        </li>
+        <li><strong>Institucional</strong>
+             <ul>
+                <li><a href="https://neuromat.numec.prp.usp.br/" target="_blank" title="Abre em nova aba">Site Oficial do NeuroMat</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</section>
+{% endblock %}

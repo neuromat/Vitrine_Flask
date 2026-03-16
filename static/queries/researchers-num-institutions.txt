@@ -1,3 +1,4 @@
+# Funciona somente no endpoint principal
 SELECT (COUNT(DISTINCT ?instituto) AS ?num_instituto) WHERE {
   ?artigos wdt:P361 wd:Q18477654 .
   ?artigos wdt:P50 ?pesquisador.

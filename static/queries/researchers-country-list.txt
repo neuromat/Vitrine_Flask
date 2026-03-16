@@ -1,3 +1,5 @@
+
+
 SELECT DISTINCT ?paisLabel WHERE {
   ?artigos wdt:P361 wd:Q18477654 .
   ?artigos wdt:P50 ?pesquisador.

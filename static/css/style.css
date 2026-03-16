@@ -1,25 +1,37 @@
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-}
-header, footer {
-    background-color: #f0f8ff;
-    padding: 10px;
-    text-align: center;
-}
-.back-to-top {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: #2a72d4;
-}
-.back-to-top:hover {
-    text-decoration: underline;
+/* -----------------------------------------------------
+   VARIAVEIS DE CORES (Para consistência)
+   Deve ser definido no :root ou no seletor que abrange a aplicação,
+   caso não esteja definido globalmente.
+----------------------------------------------------- */
+:root {
+    --verde-principal: #00D28E;
+    --cinza-escuro: #2F3C4B;
+    --vermelho-framboesa: #E3004C;
+    --off-white: #F5F5F5;
+    --preto-forte: #000000;
 }
 
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    line-height: 1.5;
+    color: var(--cinza-escuro, #2F3C4B);
+    background-color: var(--off-white, #F5F5F5);
+
+    padding: 1rem;
+    max-width: 80ch; /* ABNT 5.12.6*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+/* Indicador de foco universal */
+:focus {
+    outline: 3px solid var(--verde-principal, #00D28E);
+    outline-offset: 2px;
+}
 
 /* academic.css */
 section.academic {
@@ -27,4 +39,188 @@ section.academic {
     padding: 15px;
     border: 1px solid #b3e0ff;
     border-radius: 8px;
+}
+
+/* ----------------------------------------------------- */
+/* ESTILOS DO CABEÇALHO (HEADER) */
+/* ----------------------------------------------------- */
+
+.main-header {
+    background-color: var(--off-white, #F5F5F5);
+    border-top: 5px solid var(--preto-forte, #000000);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 0 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------- */
+/* ESTILOS DO LOGO / TÍTULO */
+/* ----------------------------------------------------- */
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.site-logo:hover,
+.site-logo:focus,
+.site-logo:visited {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+}
+
+.logo-name {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--preto-forte);
+    line-height: 1;
+    margin-right: 0.8rem;
+}
+
+.site-logo:hover .logo-name,
+.site-logo:focus .logo-name,
+.site-logo:active .logo-name,
+.site-logo:visited .logo-name {
+    color: var(--preto-forte);
+}
+
+/* ----------------------------------------------------- */
+/* ESTILOS DA NAVEGAÇÃO (MENU) */
+/* ----------------------------------------------------- */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.nav-item {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 550;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    border-bottom: 3px solid transparent;
+    padding: 24px 0;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estado de foco/hover/selecionado */
+.nav-item:hover,
+.nav-item:focus,
+.nav-item.active,
+.main-nav a[aria-current="page"] {
+    color: var(--vermelho-framboesa);
+    border-bottom: 3px solid var(--vermelho-framboesa);
+    font-weight: 700;
+}
+
+/* Evitar foco em elementos tabindex -1 */
+[tabindex="-1"]:focus {
+    outline: none !important;
+}
+
+/* Reforço do foco verde ABNT */
+a:focus,
+button:focus,
+input:focus,
+[tabindex]:focus,
+:focus:not([tabindex="-1"]) {
+    outline: 3px solid var(--verde-principal) !important;
+    outline-offset: 2px !important;
+}
+
+/* ----------------------------------------------------- */
+/* ACESSIBILIDADE - Classe para ocultar visualmente */
+/* ----------------------------------------------------- */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* Estilização da caixa de aviso */
+.warning-box {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.warning-box span {
+    margin-right: 8px;
+}
+
+
+/* ----------------------------------------------------- */
+/* RESPONSIVIDADE (MOBILE / TELAS MENORES) */
+/* ----------------------------------------------------- */
+@media (max-width: 800px) {
+
+    /* Altera o cabeçalho para não ter altura fixa e quebrar os elementos */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    /* Ajusta o tamanho da fonte do Logo para não ocupar muito espaço */
+    .site-logo {
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+
+    /* Transforma o menu em uma barra de rolagem horizontal */
+    .main-nav {
+        width: 100%;
+        gap: 1.2rem;
+        overflow-x: auto; /* Permite rolar os links para os lados */
+        -webkit-overflow-scrolling: touch; /* Melhora a fluidez no iOS */
+
+        /* Oculta a barra de rolagem visual, mantendo a função */
+        scrollbar-width: none; /* Firefox */
+    }
+    .main-nav::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Edge */
+    }
+
+    /* Impede que o texto dos links se quebre em várias linhas */
+    .nav-item {
+        white-space: nowrap;
+        padding: 15px 0; /* Reduz a altura para caber melhor na tela */
+        flex-shrink: 0;
+    }
 }

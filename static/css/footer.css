@@ -1,0 +1,116 @@
+/* Herda a fonte do seu accessibility.css, mas define o bloco escuro */
+footer {
+    background-color: #2F3C4B; /* Cor do texto principal usada como fundo */
+    color: #F5F5F5; /* Cor do fundo principal usada como texto */
+    padding: 3rem 1rem 1rem; /* Espaçamento generoso */
+    margin-top: 4rem;
+    border-top: 4px solid #00D28E; /* Borda visual com a cor de foco */
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 100%; /* Ocupa o espaço disponível dentro do body */
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Tipografia */
+.footer-col h4 {
+    color: #00D28E; /* Títulos em verde para destaque acessível */
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.9rem;
+}
+
+/* Utilitário para margem extra (ex: entre Realização e Apoio) */
+.mt-small {
+    margin-top: 1.5rem;
+}
+
+/* --- TRATAMENTO DE LINKS DO RODAPÉ --- */
+/* Sobrescreve a cor rosa/vermelha global para garantir contraste no fundo escuro */
+a.footer-link {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 4px; /* Facilita leitura */
+    transition: color 0.2s;
+}
+
+a.footer-link:hover {
+    color: #00D28E; /* Verde no hover */
+    text-decoration: none;
+}
+
+/* O foco (outline) já é herdado automaticamente do seu CSS global! */
+
+/* Botão estilizado (Equipe) */
+.btn-team {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+.btn-team:hover {
+    background-color: #00D28E;
+    color: #2F3C4B !important; /* Texto escuro para contraste no fundo verde */
+    border-color: #00D28E;
+}
+
+/* --- IMAGENS QUE NÃO EXISTEM AINDA --- */
+.footer-logo {
+    display: block;
+    max-width: 100%;
+    height: 60px; /* Altura reservada */
+    width: auto;
+    margin-bottom: 10px;
+
+
+    /* Quando a imagem carregar: */
+    object-fit: contain;
+    object-position: left;
+}
+/* Estilo do texto ALT caso a imagem falhe */
+.footer-logo:not([src]),
+.footer-logo[src=""] {
+    color: #2F3C4B;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+/* Texto legal (processos) */
+.legal-text {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+/* Barra inferior */
+.footer-bottom {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1); /* Linha sutil */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-bottom nav {
+    display: flex;
+    gap: 1.5rem;
+}

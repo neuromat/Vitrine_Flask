@@ -1,0 +1,102 @@
+/* accessibility.css - CORRIGIDO */
+
+/* -----------------------------------------------------------------
+   1. FOCO VISÍVEL GLOBAL (ABNT 5.1.6 - WCAG 2.4.7)
+   Garante que o foco utilize a cor de alto contraste Verde Principal
+   para diferenciar o estado de foco do estado ativo (vermelho).
+----------------------------------------------------------------- */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  /* CORREÇÃO: Usando a cor Verde Principal da paleta */
+  outline: 3px solid #00D28E;
+  outline-offset: 2px;
+
+  /* REMOVIDO: box-shadow. Mantenha apenas o outline simples, conforme a prática recomendada. */
+  box-shadow: none;
+}
+
+/* -----------------------------------------------------------------
+   2. CORPO DE TEXTO E ESPAÇAMENTO (ABNT 5.12)
+----------------------------------------------------------------- */
+body {
+  background-color: #F5F5F5;
+  color: #2F3C4B;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 1rem;
+
+  /* REMOVIDO: text-shadow (Violação de contraste) */
+
+  /* Espaçamento (CORRIGIDO PARA O MÍNIMO ABNT) */
+  line-height: 1.5;            /* ABNT: Mínimo 1.5 */
+  word-spacing: 0.16em;        /* ABNT: Mínimo 0.16em */
+
+  /* Alinhamento e Largura */
+  text-align: left;            /* ABNT 5.12.5 */
+  max-width: 80ch;             /* ABNT 5.12.6 */
+
+  /* Centralização e Padding */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Espaçamento entre parágrafos ABNT 5.12.2 */
+p {
+  margin-bottom: 2em;
+}
+
+/* -----------------------------------------------------------------
+   3. ESTADOS DE LINKS (BODY A)
+   As regras aqui continuam válidas, mas o foco global as anulará
+   para links focados (a:focus), o que é o comportamento correto.
+----------------------------------------------------------------- */
+body a {
+  color: #E3004C;
+}
+
+body a:hover {
+  color: #004B61;
+  text-decoration: underline;
+}
+
+body a:focus {
+  /* REMOVIDO: outline local, ele será substituído pelo global #00D28E. */
+  outline-offset: 2px;
+  color: #004B61;
+}
+
+body a:visited {
+  color: #A4508B;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  word-wrap: break-word;
+}
+
+/* Regras de tooltips e conteúdo adicional */
+.tooltip:focus .tooltip-text,
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+/* Skip Link - Acessibilidade */
+.skip-link {
+    position: absolute;
+    top: -40px; /* Esconde visualmente */
+    left: 0;
+    background: #000000; /* Alto contraste */
+    color: #FFFFFF;
+    padding: 8px;
+    z-index: 9999;
+    text-decoration: none;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0; /* Aparece ao receber foco do teclado */
+    outline: 3px solid var(--verde-principal);
+}

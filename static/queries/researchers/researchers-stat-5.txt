@@ -1,4 +1,6 @@
 # Conta pesquisadores com grau de mestre que são principais e associados
+## NÃO ESTÁ SENDO USADO NA RENDERIZAÇÃO ##
+## MANTIDA SOMENTE PARA CASO SEJA NECESSÁRIA EM ALGUM MOMENTO INSERIR OUTRA QUERY NESSE LOCAL ##
 SELECT (COUNT(?pesquisador) AS ?valor) WHERE {
   ?artigos wdt:P361 wd:Q18477654 ;
            wdt:P50 ?pesquisador.

@@ -1,13 +1,13 @@
-<!-- AcademicPublications.html -->
-<section id="academic" class="academic">
-  <h2>Publicações Acadêmicas</h2>
+<!-- AcademicPublications.html
+ - Atende a ABNT 5.3.1, 5.3.2, 5.3.4 e 5.3.5
+ -->
 
-  <!-- Conteúdo da introdução, injetado por intro.js -->
-  <div id="intro-content"></div>
+<main>
+  <section id="academic" class="academic">
+    <h2>Publicações Acadêmicas</h2>
+    <div id="intro-content" tabindex="-1"></div>
+    <div id="academic-content" tabindex="-1"></div>
+    <script src="{{ url_for('static', filename='js/academic.js') }}"></script>
+  </section>
+</main>
 
-  <!-- Conteúdo restante controlado por academic.js -->
-  <div id="academic-content"></div>
-
-  <!-- Scripts -->
-  <script src="{{ url_for('static', filename='js/academic.js') }}"></script>
-</section>
