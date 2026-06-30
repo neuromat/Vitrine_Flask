@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       )
     ]);
 
-    // Lista de países (lógica mantida)
+    // Lista de países
     const countryResp = await fetch(`${endpoint}?query=${encodeURIComponent(countryListQuery)}`, { headers });
     const countryData = await countryResp.json();
     const countries = countryData.results.bindings.map(b => b.paisLabel.value);
@@ -63,7 +63,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       : countries[0] || "diversos países";
 
 
-    // --- ALTERAÇÃO PRINCIPAL AQUI ---
 
     // 1. Executa todas as queries e pega o JSON cru (sem tentar ler valor ainda),
     const rawResults = await Promise.all(
@@ -100,22 +99,21 @@ document.addEventListener("DOMContentLoaded", async function () {
       .replace('[[3]]', formattedCountryList);
 
     // Substituição de marcadores no STATS
-    // Aqui adaptamos para o seu novo texto com [[V]], [[W]], etc.
-    // Se você ainda estiver usando [[4]], ele vai juntar os termos com vírgula.
+    // Aqui adaptamos para o novo texto com [[V]], [[W]], etc.
     let statsRender = statsHtml
       .replace('[[1]]', getCountValue(0)) // Query 1 (Total Pessoas)
       .replace('[[2]]', getCountValue(1)) // Query 2 (Instituições)
       .replace('[[3]]', getCountValue(2)) // Query 3 (Áreas)
       // -- AQUI ENTRAM OS ASSUNTOS DA QUERY 4 --
-      // Se o seu HTML tiver [[V]], [[W]], etc:
+      // Se o HTML tiver [[V]], [[W]], etc:
       .replace('[[V]]', safeSubject(0))
       .replace('[[W]]', safeSubject(1))
       .replace('[[X]]', safeSubject(2))
       .replace('[[Y]]', safeSubject(3))
       .replace('[[Z]]', safeSubject(4))
-      // Fallback: Se o seu HTML ainda usa [[4]], coloca a lista inteira separada por vírgula
+      // Fallback: Se o  HTML ainda usa [[4]], coloca a lista inteira separada por vírgula
       .replace('[[4]]', subjectsList.join(', '))
-      .replace('[[5]]', getCountValue(4)) // Mantido conforme seu pedido
+      .replace('[[5]]', getCountValue(4))
       .replace('[[6]]', getCountValue(5))
       .replace('[[7]]', getCountValue(6));
 
