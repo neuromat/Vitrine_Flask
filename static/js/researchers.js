@@ -62,8 +62,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       ? `${countries.slice(0, -1).join(', ')} e ${countries.slice(-1)}`
       : countries[0] || "diversos países";
 
-
-
     // 1. Executa todas as queries e pega o JSON cru (sem tentar ler valor ainda),
     const rawResults = await Promise.all(
       queryTexts.map((query, index) => {
