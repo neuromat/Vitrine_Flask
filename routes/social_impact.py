@@ -8,46 +8,63 @@ social_impact_bp = Blueprint("social_impact", __name__)
 
 
 # -----------------------------
-# Formatação acessível de número
+# Formatação de números
 # -----------------------------
 def format_number(n):
-    """Formata número inteiro com separador de milhar brasileiro."""
+    """Formata número inteiro no padrão brasileiro: 8966 → 8.966."""
     return f"{int(n):,}".replace(",", ".")
+
+
+def format_decimal_br(n):
+    """Formata número decimal no padrão brasileiro: 4448.80 → 4.448,80."""
+    return f"{n:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 # -----------------------------
 # Lógica de cálculo altmetrics
 # -----------------------------
 def gerar_resumo_altmetrics():
-
     df = pd.read_csv(
         "data/df_altmetric.csv",
         delimiter=";",
         on_bad_lines="skip"
     )
 
-    def sanitize(col):
-        return col.apply(
-            lambda x: float(x)
-            if isinstance(x, (int, float)) or len(str(x)) <= 20
-            else 0.0
+    colunas = [
+        "doi_score",
+        "readers_count",
+        "cited_by_tweeters_count",
+        "cited_by_rdts",
+        "cited_by_msm_count",
+        "cited_by_feeds_count",
+        "cited_by_accounts_count",
+        "cited_by_fbwalls_count",
+        "cited_by_gplus_count",
+        "cited_by_videos_count",
+        "cited_by_wikipedia_count",
+    ]
+
+    for coluna in colunas:
+        if coluna not in df.columns:
+            df[coluna] = 0.0
+
+        df[coluna] = pd.to_numeric(
+            df[coluna],
+            errors="coerce"
         ).fillna(0.0)
 
-    readers = sanitize(df["readers_count"]).sum()
-    tweeters = sanitize(df["cited_by_tweeters_count"]).sum()
-    rdts = sanitize(df["cited_by_rdts"]).sum()
-    news = sanitize(df["cited_by_msm_count"]).sum()
-    feeds = sanitize(df["cited_by_feeds_count"]).sum()
-    accounts = sanitize(df["cited_by_accounts_count"]).sum()
-    fbwalls = sanitize(df["cited_by_fbwalls_count"]).sum()
-    gplus = sanitize(df["cited_by_gplus_count"]).sum()
-    videos = sanitize(df["cited_by_videos_count"]).sum()
-    wikipedia = sanitize(df["cited_by_wikipedia_count"]).sum()
-    doi_score = sanitize(df["doi_score"]).sum()
+    score = df["doi_score"].sum()
+    readers = df["readers_count"].sum()
+    tweeters = df["cited_by_tweeters_count"].sum()
+    rdts = df["cited_by_rdts"].sum()
+    news = df["cited_by_msm_count"].sum()
+    feeds = df["cited_by_feeds_count"].sum()
+    accounts = df["cited_by_accounts_count"].sum()
+    fbwalls = df["cited_by_fbwalls_count"].sum()
+    gplus = df["cited_by_gplus_count"].sum()
+    videos = df["cited_by_videos_count"].sum()
+    wikipedia = df["cited_by_wikipedia_count"].sum()
 
-    # -----------------------------
-    # Lê HTML externo
-    # -----------------------------
     path = Path("static/content/social_impact/resumo.html")
 
     if not path.exists():
@@ -55,10 +72,7 @@ def gerar_resumo_altmetrics():
 
     html = path.read_text(encoding="utf-8")
 
-    # -----------------------------
-    # Substitui placeholders
-    # -----------------------------
-    html = html.replace("{{doi_score}}", format_number(doi_score))
+    html = html.replace("{{doi_score}}", format_decimal_br(score))
     html = html.replace("{{readers}}", format_number(readers))
     html = html.replace("{{tweeters}}", format_number(tweeters))
     html = html.replace("{{rdts}}", format_number(rdts))
@@ -78,7 +92,6 @@ def gerar_resumo_altmetrics():
 # -----------------------------
 @social_impact_bp.route("/api/social-impact")
 def social_impact_api():
-
     html = gerar_resumo_altmetrics()
 
     return jsonify({
