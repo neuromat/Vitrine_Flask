@@ -1,10 +1,13 @@
 from flask import Flask, render_template
 from routes.social_impact import social_impact_bp  # Importa o Blueprint
+from routes.researchers_stats import researchers_stats_bp
 
 app = Flask(__name__)
 
 # Registra o Blueprint da seção Impacto Social
 app.register_blueprint(social_impact_bp)
+# Registra o Blueprint para a computação do csv de bolsistas
+app.register_blueprint(researchers_stats_bp)
 
 @app.route('/')
 def home():
