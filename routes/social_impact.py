@@ -3,6 +3,7 @@
 import pandas as pd
 from pathlib import Path
 from flask import Blueprint, jsonify
+from pathlib import Path
 
 social_impact_bp = Blueprint("social_impact", __name__)
 
@@ -23,9 +24,11 @@ def format_decimal_br(n):
 # -----------------------------
 # Lógica de cálculo altmetrics
 # -----------------------------
+BASE_DIR = Path(__file__).resolve().parent.parent
+CAMINHO_CSV = BASE_DIR / "data" / "df_altmetric.csv"
 def gerar_resumo_altmetrics():
     df = pd.read_csv(
-        "data/df_altmetric.csv",
+        CAMINHO_CSV,
         delimiter=";",
         on_bad_lines="skip"
     )
