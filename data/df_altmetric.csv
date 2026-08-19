@@ -1,0 +1,547 @@
+item;itemLabel;doi;isbn;arxiv;pmid;doi_score;readers_count;cited_by_tweeters_count;cited_by_accounts_count;cited_by_posts_count;cited_by_msm_count;cited_by_feeds_count;cited_by_fbwalls_count;cited_by_gplus_count;cited_by_videos_count;cited_by_rdts;arxiv_id;cited_by_wikipedia_count
+http://www.wikidata.org/entity/Q98799518;Modeling networks of spiking neurons as interacting processes with memory of variable length;;;1502.06446;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799519;Hovering stochastic oscillations in self-organized critical systems;10.1038/S41598-019-40473-1;;1803.05537;30846773;3.00;34;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q98799521;Interaction graph estimation for the first olfactory relay of an insect;10.48550/ARXIV.1612.05226;;1612.05226v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799522;Estimation of neuronal interaction graph from spike train data;;;1612.05226v2;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799524;Oscillations and irregular persistent firing patterns in a homogeneous network of excitatory stochastic neurons with gap junctions in the mean-field limit;;;1707.06038;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799525;Sparse space-time models: Concentration Inequalities and Lasso;;;1807.07615;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799526;Concentration and Poincaré type inequalities for a degenerate pure jump Markov process;10.48550/ARXIV.1904.07090;;1904.07090;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799528;Self-organized critical balanced networks: a unified framework;10.1103/PHYSREVRESEARCH.2.012042;;1906.05624;0;2.00;26;5;5;5;0;0;0;0;0;0;1906.05624;0
+http://www.wikidata.org/entity/Q98799530;Infinite systems of interacting chains with memory of variable length beyond the Dobrushin condition;10.48550/ARXIV.1907.09012;;1907.09012;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799531;The Effect of Graph Connectivity on Metastability on a Stochastic System of Spiking Neurons;10.1016/J.SPA.2020.09.013;;1910.00055;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799532;Retrieving the structure of probabilistic sequences of auditory stimuli from EEG data;10.1038/S41598-021-83119-X;;2001.11502;33568773;18.50;24;1;3;5;2;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799534;Fractal Analyses of Networks of Integrate-and-Fire Stochastic Spiking Neurons;10.1007/978-3-319-73198-8_14;;1801.08087;0;0.50;19;2;2;2;0;0;0;0;0;0;1801.08087;0
+http://www.wikidata.org/entity/Q98799536;Hydrodynamic Limit for Interacting Neurons;10.1007/S10955-014-1145-1;;1401.4264;0;4.75;17;4;8;9;0;0;1;0;0;0;1401.4264;3
+http://www.wikidata.org/entity/Q98799538;Stochastically Perturbed Chains of Variable Memory;10.1007/S10955-015-1227-8;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799540;A Stochastic System with Infinite Interacting Components to Model the Time Evolution of the Membrane Potentials of a Population of Neurons;10.1007/S10955-016-1490-3;;1505.00045;0;4.00;4;3;5;5;0;0;0;0;0;0;1505.00045;2
+http://www.wikidata.org/entity/Q98799542;Phase Transition for Infinite Systems of Spiking Neurons;10.1007/S10955-018-2118-6;;1802.07829;0;0.75;5;2;3;3;0;0;1;0;0;0;1802.07829;0
+http://www.wikidata.org/entity/Q98799544;A Result of Metastability for an Infinite System of Spiking Neurons;10.1007/S10955-019-02402-4;;1905.07053;0;0.25;1;1;1;1;0;0;0;0;0;0;1905.07053;0
+http://www.wikidata.org/entity/Q98799546;Modified Log-Sobolev Inequality for a Compact Pure Jump Markov Process with Degenerate Jumps;10.1007/S10955-020-02506-2;;1906.04855;0;1.25;1;2;2;2;0;0;0;0;0;0;1906.04855;0
+http://www.wikidata.org/entity/Q98799548;Non-parametric estimation of the spiking rate in systems of interacting neurons;10.1007/S11203-016-9150-4;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799550;Synaptic balance due to homeostatically self-organized quasicritical dynamics;10.1103/PHYSREVRESEARCH.2.012042;;2002.09117;0;2.00;26;5;5;5;0;0;0;0;0;0;1906.05624;0
+http://www.wikidata.org/entity/Q98799552;Physics of psychophysics: Large dynamic range in critical square lattices of spiking neurons;10.1103/PHYSREVRESEARCH.2.033057;;2006.11254;0;1.25;11;3;3;3;0;0;0;0;0;0;2006.11254;0
+http://www.wikidata.org/entity/Q98799554;Modelos de redes neurais com neurônios estocásticos e diferentes topologias: construção e análise;10.11606/D.59.2019.TDE-20092019-142746;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799556;Estimating the interaction graph of stochastic neural dynamics;10.3150/17-BEJ1006;;1604.00419;0;0.50;9;2;2;2;0;0;0;0;0;0;1604.00419;0
+http://www.wikidata.org/entity/Q98799558;A stochastic version of the Potjans-Diesmann cortical column model;10.3389/CONF.FNINF.2016.20.00060;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799560;Self-Organized Supercriticality and Oscillations in Networks of Stochastic Spiking Neurons;10.3390/E19080399;;1705.08549;0;0.25;31;1;1;1;0;0;0;0;0;0;1705.08549;0
+http://www.wikidata.org/entity/Q98799561;Poincaré-Type Inequalities for Compact Degenerate Pure Jump Markov Processes;10.3390/MATH7060518;;1803.10745;0;0.25;0;1;1;1;0;0;0;0;0;0;1803.10745;0
+http://www.wikidata.org/entity/Q98828638;Asymptotically Deterministic Time of Extinction for a Stochastic System of Spiking Neurons;;;1910.00055v2;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98834541;On a toy model of interacting neurons;10.1214/15-AIHP701;;1410.3263;0;3.00;16;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q98834547;Absolute continuity of the invariant measure in Piecewise Deterministic Markov Processes having degenerate jumps;;;1601.07123;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839655;Hydrodynamic Limit for Spatially Structured Interacting Neurons;10.1007/S10955-015-1366-Y;;1503.05974;0;0.50;10;2;2;2;0;0;0;0;0;0;1503.05974;0
+http://www.wikidata.org/entity/Q98839658;A System of Interacting Neurons with Short Term Synaptic Facilitation;10.1007/S10955-019-02467-1;;1903.01270;0;0.25;12;1;1;1;0;0;0;0;0;0;1903.01270;0
+http://www.wikidata.org/entity/Q98839677;Self-sustained activity of low firing rate in balanced networks;10.1016/J.PHYSA.2019.122671;;1809.01020;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839683;Mean field limits for nonlinear spatially extended Hawkes processes with exponential memory kernels;10.1016/J.SPA.2018.02.007;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839696;Stability, convergence to equilibrium and simulation of non-linear Hawkes processes with memory kernels given by the sum of Erlang kernels;10.1051/PS/2019005;;1610.03300;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839741;Identifying Interacting Pairs of Sites in Ising Models on a Countable Set;10.1214/14-BJPS279;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839757;Aplicações da teoria da informação à neurociência;10.1590/1806-9126-RBEF-2018-0197;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98839765;Retrieving a Context Tree from EEG Data;10.3390/MATH7050427;;;0;8.25;16;0;2;2;1;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q98840095;Reimplementation of the Potjans-Diesmann cortical microcircuit model: from NEST to Brian;10.1101/248401;;;0;1.00;6;2;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520971;Blurred stochastic chains;;;1611.00409;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520973;Metastability and Multiscale Extinction Time on a Finite System of Interacting Stochastic Chains;;;1812.09409;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520974;A numerical study of the time of extinction in a class of systems of spiking neurons;10.1007/S10955-022-03060-9;;1911.02609;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520975;Limit theorems for chains with unbounded variable length memory which satisfy Cramer condition;;;1911.06778;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520978;Subsampled directed-percolation models explain scaling relations experimentally observed in the brain;10.3389/FNCIR.2020.576727;;2007.13813;33519388;10.75;34;4;5;5;1;0;0;0;0;0;2007.13813;0
+http://www.wikidata.org/entity/Q99520979;Fingerprints of data compression in EEG sequences;;;2008.10760;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520980;Stochastic models in neurobiology: from a multiunitary regime to EEG data;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520981;Spiking neurons: interacting Hawkes processes, mean field limits and oscillations;10.1051/PROC/201760090;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q99520982;Emergência de flutuações de atividade em modelos de redes corticais com populações neurais heterogêneas;10.11606/T.59.2019.TDE-18012019-095012;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q100152359;Large deviations for cascades of diffusions arising in oscillating systems of interacting Hawkes processes;10.1007/S10959-017-0789-6;;1709.09356;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q100734476;Anticipated synchronization in human EEG data: Unidirectional causality with negative phase lag;10.1103/PHYSREVE.102.032216;;2008.11167;33075996;1.25;17;3;3;3;0;0;0;0;0;0;2008.11167;0
+http://www.wikidata.org/entity/Q101496246;On an anti-Ramsey threshold for sparse graphs with one triangle;10.1002/JGT.22150;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496249;A note on conjugate distributions for copulas;10.1002/MMA.3394;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496251;Tight Hamilton Cycles in Random Hypergraphs;10.1002/RSA.20519;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496253;An Improved Upper Bound on the Density of Universal Random Graphs;10.1002/RSA.20545;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496255;Chromatic thresholds in sparse random graphs;10.1002/RSA.20709;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496264;Powers of Hamilton cycles in pseudorandom graphs;10.1007/S00493-015-3228-2;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496266;Discrepancy and eigenvalues of Cayley graphs;10.1007/S10587-016-0302-X;;1602.02291;0;0.50;4;2;2;2;0;0;0;0;0;0;1602.02291;0
+http://www.wikidata.org/entity/Q101496269;Finite Cycle Gibbs Measures on Permutations of Zd;10.1007/S10955-014-1169-6;;1407.6542;0;1.00;2;3;3;4;0;0;0;0;0;0;1407.6542;0
+http://www.wikidata.org/entity/Q101496271;Potential Well Spectrum and Hitting Time in Renewal Processes;10.1007/S10955-015-1216-Y;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496273;Information Transmission and Criticality in the Contact Process;10.1007/S10955-017-1854-3;;1705.11150;0;0.50;11;2;2;2;0;0;0;0;0;0;1705.11150;0
+http://www.wikidata.org/entity/Q101496276;Discrete One-Dimensional Coverage Process on a Renewal Process;10.1007/S10955-018-2138-2;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496279;Interacting Diffusions on Random Graphs with Diverging Average Degrees: Hydrodynamics and Large Deviations;10.1007/S10955-019-02332-1;;1807.06898;0;0.50;5;2;2;2;0;0;0;0;0;0;1807.06898;0
+http://www.wikidata.org/entity/Q101496281;Microwave-Assisted Growth of Silver Nanoparticle Films with Tunable Plasmon Properties and Asymmetrical Particle Geometry for Applications as Radiation Sensors;10.1007/S11468-020-01150-6;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496283;Nonparametric statistics of dynamic networks with distinguishable nodes;10.1007/S11749-017-0524-8;;1408.3584;0;1.85;8;4;4;6;0;0;0;0;0;0;1408.3584;0
+http://www.wikidata.org/entity/Q101496286;Edge-Colorings of Uniform Hypergraphs Avoiding Monochromatic Matchings;10.1016/J.DISC.2014.10.004;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496288;On hypergraphs without loose cycles;10.1016/J.DISC.2017.12.015;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496290;On an Anti-Ramsey Threshold for Random Graphs;10.1016/J.EJC.2014.02.004;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496293;A note on supersaturated set systems;10.1016/J.EJC.2015.03.028;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496296;Asymptotic enumeration of sparse uniform hypergraphs with given degrees;10.1016/J.EJC.2015.06.004;;1306.2012;0;0.25;7;1;1;1;0;0;0;0;0;0;1306.2012;0
+http://www.wikidata.org/entity/Q101496298;Densities in large permutations and parameter testing;10.1016/J.EJC.2016.09.006;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496300;Counting results for sparse pseudorandom hypergraphs II;10.1016/J.EJC.2017.04.007;;1602.08784;0;0.50;5;2;2;2;0;0;0;0;0;0;1602.08784;0
+http://www.wikidata.org/entity/Q101496303;A counting lemma for sparse pseudorandom hypergraphs;10.1016/J.ENDM.2015.07.070;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496306;On the number of r-transitive orientations of G(n,p);10.1016/J.ENDM.2017.06.046;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496311;Estimating the distance to a hereditary graph property;10.1016/J.ENDM.2017.07.014;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496316;Independence tests for continuous random variables based on the longest increasing subsequence;10.1016/J.JMVA.2014.02.010;;;0;5.00;14;0;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496321;A model selection approach for multiple sequence segmentation and dimensionality reduction;10.1016/J.JMVA.2018.05.006;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496324;ESR dating of late Quaternary megafauna fossils from João Dourado, Bahia, Brazil;10.1016/J.JSAMES.2020.102586;;;0;3.00;11;0;2;2;0;0;0;0;0;0;0;2
+http://www.wikidata.org/entity/Q101496329;A simple centrality index for scientific social recognition;10.1016/J.PHYSA.2017.08.072;;;0;11.00;36;1;6;6;0;1;0;0;0;0;0;3
+http://www.wikidata.org/entity/Q101496333;Potential properties of L-Asparagine for ESR dosimetry applications;10.1016/J.RADPHYSCHEM.2020.109204;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496340;Dynamic uniqueness for stochastic chains with unbounded memory;10.1016/J.SPA.2017.06.004;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496343;Fluctuations for spatially extended Hawkes processes;10.1016/J.SPA.2020.03.015;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496346;Stochastic Ising model with plastic interactions;10.1016/J.SPL.2016.11.028;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496351;The randomly fluctuating hyperrectangles are spatially monotone;10.1016/J.SPL.2017.07.016;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496353;Exponential inequality for chaos based on sampling without replacement;10.1016/J.SPL.2018.11.003;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496354;The History of Writing Reflects the Effects of Education on Discourse Structure: Implications for Literacy, Orality, Psychosis and the Axial Age;10.1016/J.TINE.2020.100142;;;33303107;24.25;80;17;18;22;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496356;On the Number of Bh-Sets;10.1017/S0963548315000206;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496358;Triangle-Free Subgraphs of Random Graphs;10.1017/S0963548317000219;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496361;Invasion percolation solves Fermi Paradox but challenges SETI projects;10.1017/S1473550418000101;;;0;3.75;6;1;5;6;0;0;0;0;0;0;0;3
+http://www.wikidata.org/entity/Q101496364;A copula model to analyze minimum admission scores;10.1063/1.4825799;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496365;Copula based model correction for bivariate Bernoulli financial series;10.1063/1.4825801;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496369;Combining multivariate Markov chains;10.1063/1.4912373;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496371;Independence test for sparse data;10.1063/1.4951925;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496373;Local optima of the Sherrington-Kirkpatrick Hamiltonian;10.1063/1.5020662;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496375;Aggregated functional data model for near-infrared spectroscopy calibration and prediction;10.1080/02664763.2014.938224;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496376;Long-range dependence and approximate Bayesian computation;10.1080/03610918.2014.995816;;;0;0.50;4;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496378;Robust Model Selection for Stochastic Processes;10.1080/03610926.2013.851220;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496380;Modeling of Acoustic Signal Energies with a Generalized Frank Copula. A Linguistic Conjecture is Reviewed;10.1080/03610926.2013.866248;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496383;A copula-based partition Markov procedure;10.1080/03610926.2017.1359291;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496384;The maximum size of a non-trivial intersecting uniform family that is not a subfamily of the Hilton–Milner family;10.1090/PROC/13221;;1509.05464;0;0.50;3;2;2;2;0;0;0;0;0;0;1509.05464;0
+http://www.wikidata.org/entity/Q101496389;A Public Database on Traumatic Brachial Plexus Injury;10.1101/399824;;;0;1.50;5;4;5;5;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496395;Rényi Entropies and Large Deviations for the First Match Function;10.1109/TIT.2015.2406695;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496397;Stochastic Processes With Random Contexts: A Characterization and Adaptive Estimators for the Transition Probabilities;10.1109/TIT.2015.2496200;;1309.2819;0;0.25;4;1;1;1;0;0;0;0;0;0;1309.2819;0
+http://www.wikidata.org/entity/Q101496399;The Shortest Possible Return Time of B-Mixing Processes;10.1109/TIT.2017.2757494;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496400;Estimation of the Number of Communities in the Stochastic Block Model;10.1109/TIT.2020.3016331;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496403;A Test of Hypotheses for Random Graph Distributions Built from EEG Data;10.1109/TNSE.2017.2674026;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496404;Independent block identification in multivariate time series;10.1111/JTSA.12553;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496406;"Verbal Short‐Term Memory Underlies Typical Development of ""Thought Organization"" Measured as Speech Connectedness";10.1111/MBE.12208;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496408;The number of Bh-sets of a given cardinality;10.1112/PLMS.12082;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496409;Minimum number of edges in a hypergraph guaranteeing a perfect fractional matching and the MMS conjecture;10.1134/S0032946014040048;;;0;2.50;6;0;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496412;Fractional matchings in hypergraphs;10.1134/S0032946015010032;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496416;Extragradient Method with Variance Reduction for Stochastic Variational Inequalities;10.1137/15M1031953;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496418;Infinite Sidon Sets Contained in Sparse Random Sets of Integers;10.1137/17M1114934;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496421;Variance-Based Extragradient Methods with Line Search for Stochastic Variational Inequalities;10.1137/17M1144799;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496423;Character networks and book genre classification;10.1142/S012918311950058X;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496425;Anticipated Synchronization and Zero-Lag Phases in Population Neural Models;10.1142/S0218127418300252;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496428;Almost sure convergence of the clustering factor in α-mixing processes;10.1142/S0219493716600169;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496430;Teste de hipóteses para grafos aleatórios com aplicação à neurociência;10.11606/D.45.2014.TDE-12052014-223530;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496431;Brain functional connectivity in regions that exhibit age-related cortical thinning;10.11606/D.59.2018.TDE-17042018-130342;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496433;Modelagem estocástica de uma população de neurônios;10.11606/T.45.2014.TDE-22092014-090046;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496435;Teoremas fundamentais para o caminho mais curto entre duas sequências;10.11606/T.45.2015.TDE-16072015-154752;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496436;Processos de salto com memória de alcance variável;10.11606/T.45.2016.TDE-24032016-164013;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496438;Model selection for discrete Markov random fields on graphs;10.11606/T.45.2018.TDE-02022018-151123;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496440;Statistical inference on random graphs and networks;10.11606/T.45.2018.TDE-04042018-094802;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496443;Yaglom Limit via Holley Inequality;10.1214/14-BJPS269;;1410.1976;0;0.50;1;2;2;2;0;0;0;0;0;0;1410.1976;0
+http://www.wikidata.org/entity/Q101496447;Nonparametric Statistical Inference for the Context Tree of a Stationary Ergodic Process;10.1214/15-EJS1065;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496449;Sub-Gaussian mean estimators;10.1214/16-AOS1440;;;0;10.00;44;0;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496452;On the estimation of the mean of a random vector;10.1214/17-EJS1228;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496456;A note on monotonicity of spatial epidemic models;10.1214/18-BJPS406;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496459;Interacting diffusions on sparse graphs: hydrodynamics from local weak limits;10.1214/20-EJP505;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496462;Granger causality in the frequency domain: derivation and applications;10.1590/1806-9126-RBEF-2020-0007;;2106.03990;0;1.00;33;3;3;3;0;0;0;0;0;0;2106.03990;0
+http://www.wikidata.org/entity/Q101496465;Perfil dos adolescentes em conflito com a lei que entraram no Instituto Socioeducativo do Estado do Espírito Santo (IASES) em 2014;10.17063/BJFS6(1)Y2016145;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496467;Selective Inhibition of Mirror Invariance for Letters Doubles Reading Fluency;10.2139/SSRN.3542580;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496469;Evidence of Sleep Cycle Analogous to Vertebrate SWS/REM Alternation in the Octopus;10.2139/SSRN.3640822;;;0;0.50;6;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496470;Dynamical neuronal gains produce self-organized criticality in stochastic spiking neural networks.;10.3389/CONF.FNINF.2016.20.00059;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496473;Vertical Guided Bone Augmentation Using Titanium Mesh Domes Coated with Natural Latex Extracted from Hevea brasiliensis;10.3390/COATINGS10060595;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496475;Bayesian Inference on the Memory Parameter for Gamma-Modulated Regression Models;10.3390/E17106576;;;0;0.25;8;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496478;On the Number of Orientations of Random Graphs with no Directed Cycles of a Given Length;10.37236/3699;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496480;Uma Plataforma Computacional para a Construção de Bancos de Dados para Experimentos de Neurociência;10.5753/BRESCI.2018.3275;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496482;Número de Ramsey relativo a arestas de potências de caminhos;10.5753/ETC.2017.3198;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496484;Utilizando álgebras de flags para problemas de combinatória extremal;10.5753/ETC.2017.3200;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496488;Markov Approximations of chains of infinite order in the d-metric;10.48550/ARXIV.1107.4353;;1107.4353;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496492;Attractive regular stochastic chains: perfect simulation and phase transition;10.1017/ETDS.2013.7;;1110.6530;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496494;The solution of the complete nontrivial cycle intersection problem for permutations;10.48550/ARXIV.1303.0053;;1303.0053;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496496;Proof of two conjectures on correlation inequalities for one class of monotone functions;10.48550/ARXIV.1306.0862;;1306.0862;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496499;Complete intersection theorem and complete nontrivial-intersection theorem for systems of set partitions;;;1308.0324;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496501;On highly supercritical oriented percolation in two dimensions;10.48550/ARXIV.1311.2952;;1311.2952;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496503;The lower tail of random quadratic forms, with applications to ordinary least squares and restricted eigenvalue properties;10.48550/ARXIV.1312.2903;;1312.2903;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496505;Log-Sobolev inequalities for infinite-dimensional Gibbs measures with non-quadratic interactions;10.48550/ARXIV.1401.3219;;1401.3219;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496507;Statistics of Dynamic Random Networks: A Depth Function Approach;10.48550/ARXIV.1408.3584;;1408.3584v3;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496509;Predicting upcoming actions by observation: some facts, models and challenges;;;1409.6744;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496513;Characterization of the stability of chains associated with g-measures;;;1410.8241;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496515;Large permutations and parameter testing;10.48550/ARXIV.1412.5622;;1412.5622;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496517;Computationally efficient change point detection for high-dimensional regression;10.48550/ARXIV.1601.03704;;1601.03704;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496519;Context tree selection for functional data;10.48550/ARXIV.1602.00579;;1602.00579;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496522;Packing arborescences in random digraphs;10.48550/ARXIV.1605.05764;;1605.05764;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496524;Cutoff for random walks on graphs with bottlenecks;10.48550/ARXIV.1606.06723;;1606.06723;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496526;Quantifying word salad: The structural randomness of verbal reports predicts negative symptoms and Schizophrenia diagnosis 6 months later;;;1610.08566;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496528;From the divergence between two measures to the shortest path between two observables;10.48550/ARXIV.1611.01530;;1611.01530;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496530;Monochromatic trees in random graphs;10.1017/S0305004117000846;;1611.10299;0;1.00;3;3;3;3;0;0;0;0;0;0;1611.10299;0
+http://www.wikidata.org/entity/Q101496532;Blow-up lemmas for sparse graphs;10.48550/ARXIV.1612.00622;;1612.00622;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496532;Blow-up lemmas for sparse graphs;10.19086/DA.143410;;1612.00622;0;4.00;0;3;4;4;0;0;0;0;0;0;1612.00622;1
+http://www.wikidata.org/entity/Q101496534;The ontogeny of discourse structure mimics the development of literature;10.48550/ARXIV.1612.09268;;1612.09268;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496536;Sample average approximation with heavier tails I: non-asymptotic bounds with weak assumptions and stochastic constraints;10.48550/ARXIV.1705.00822;;1705.00822;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496539;Statistical comparison of (brain) networks;;;1707.01585;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496541;Estimating parameters associated with monotone properties;10.1017/S0963548320000048;;1707.08225;0;1.50;2;5;6;6;0;0;1;0;0;0;1707.08225;0
+http://www.wikidata.org/entity/Q101496547;A note on perfect simulation for exponential random graph models;10.48550/ARXIV.1710.00873;;1710.00873;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496549;Sample average approximation with heavier tails II: localization in stochastic convex optimization and persistence results for the Lasso;10.1007/S10107-023-01940-W;;1711.04734;0;0.75;9;2;2;3;0;0;0;0;0;0;1711.04734;0
+http://www.wikidata.org/entity/Q101496551;Strong consistency of Krichevsky-Trofimov estimator for the number of communities in the Stochastic Block Model;;;1804.03509;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496558;Influence of nicotine and alcohol on sleep and implications on insomnia: the reward-attention circuit model;;;1902.05515;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496560;The log-Sobolev inequality for spin systems of higher order interactions;10.48550/ARXIV.1906.11980;;1906.11980;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496563;Graphical Construction of Spatial Gibbs Random Graphs;10.1063/5.0073834;;1908.08880;0;0.75;1;3;3;4;0;0;0;0;0;0;1908.08880;0
+http://www.wikidata.org/entity/Q101496565;Citation network centrality: a scientific awards predictor?;10.48550/ARXIV.1910.02369;;1910.02369;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496566;Asymptotic Analysis of the Elephant Random Walk;10.48550/ARXIV.1910.03142;;1910.03142;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496568;Strong structure recovery for partially observed discrete Markov random fields on graphs;;;1911.12198;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496570;Boundary solution based on rescaling method: recoup the first and second-order statistics of neuron network dynamics;;;2002.02381;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496573;NetPyNE implementation and rescaling of the Potjans-Diesmanncortical microcircuit model;;;2005.03764;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496574;Mixing rates for potentials of non-summable variations;;;2006.06824;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496576;SeqROCTM: A Matlab toolbox for the analysis of Sequence of Random Objects driven by Context Tree Models;10.48550/ARXIV.2009.06371;;2009.06371;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496577;Mechanisms of self-organized quasicriticality in neuronal networks models;;;2010.10622;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101502565;Estimating graph parameters via random walks with restarts;10.48550/ARXIV.1709.00869;;1709.00869v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054458;Multivariate Markov chain predictions adjusted with copula models;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054461;Interaction partition. Structure of interacting coordinates for a multivariate stochastic process;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054465;Explicit estimates in the Bramson–Kalikow model;10.1088/0951-7715/27/9/2281;;;0;3.00;2;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q102054468;Detecting regime changes in Markov models;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054469;Creating Families of Conceptual Database Schemas Using Database Feature Diagrams (DBFDs);;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054473;Flag algebras and tournaments;10.11606/D.45.2015.TDE-12082015-093248;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054474;Uma investigação das sequências de fase Hebbianas descritas como grafos de assembleias neuronais;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054476;Bayesian inference for dependent chains applied to neural phenomena;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054477;Dynamic Uniqueness and Phase Transition of Chains of Infinite Order;;;1410.8241v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054479;Continuity properties of a factor of Markov chains;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054480;Exceptional Rotations of Random Graphs: A VC Theory;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054482;NES: a free software to manage data from neuroscience experiments;10.3389/CONF.FNINF.2016.20.00043;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054484;A wiki-pedagogia no Jornalismo: o caso do Projeto Wikipédia da Faculdade Cásper Líbero;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054485;Wikipédia contra a ignorância racional;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054487;Automatic Head Tracking of The Common Marmoset;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054488;A simple centrality index for scientific social recognition;;;1609.05273v2;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054490;The shortest path between two strings in product spaces;;;1611.01530v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054492;O Uso da Wikipédia na Difusão Científica;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054493;Model correction for bivariate Bernoulli Markov procecesses based on copula theory;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054495;A Wikipédia e o Poder: Uma avaliação neomarxista;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054496;Do fast retinal oscillations play a role in vision? A study in the anesthetized and awake cat;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167034;A analogia entre ondas eletromagnéticas e elastodinâmica linear;10.1590/1806-9126-RBEF-2022-0051;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167035;Sparse Markov Models for High-dimensional Inference;10.48550/ARXIV.2202.08007;;2202.08007;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167076;Investigação in silico do mecanismo de reorganização sináptica do sono. Um algoritmo para maximizar a capacidade computacional de redes neurais esparsas;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167079;Study of human structural brain connectivity in healthy aging based on tracts;10.11606/D.59.2018.TDE-16042018-151221;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116779520;Neural Coding as a Statistical Testing Problem;10.48550/ARXIV.2209.00950;;2209.00950;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116779524;Biodistribution Profile of Magnetic Nanoparticles in Cirrhosis-Associated Hepatocarcinogenesis in Rats by AC Biosusceptometry;10.3390/PHARMACEUTICS14091907;;;36145654;0.25;13;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116779526;Lucid dreaming increased during the COVID-19 pandemic: An online survey;10.1371/JOURNAL.PONE.0273281;;;36103479;37.50;32;2;6;7;4;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780530;MUFF: A Low-cost Motorized Positioner Developed by Additive Manufacturing to Obtain Multi-focus Images:;10.5220/0010913500003121;978-989-758-554-8;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780550;Three-Dimensional Dosimetry by Optical-CT and Radiochromic Gel Dosimeter of a Multiple Isocenter Craniospinal Radiation Therapy Procedure;10.3390/GELS8090582;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780551;Packing Arborescences in Random Digraphs;10.1137/17M1151511;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780553;Influence of silver nanoparticles on the tissue reaction of polyacrylic acid-based gel;10.1590/ACB370504;;;35976341;3.45;11;4;5;5;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780590;Construção e análise de rede neural convolucional com neurônios pulsados para classificação de imagens;10.11606/D.59.2022.TDE-22112022-152337;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780593;Robotized system for navigated transcranial magnetic stimulation;10.11606/T.59.2022.TDE-13122022-171059;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780603;Consistent model selection for the Degree Corrected Stochastic Blockmodel;10.48550/ARXIV.2302.03734;;2302.03734;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780604;Logical coherence in Bayesian simultaneous three-way hypothesis tests;10.1016/J.IJAR.2022.10.019;;;0;1.50;7;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780605;Treatment of Sugarcane Vinasse Using Heterogeneous Photocatalysis with Zinc Oxide Nanoparticles;10.3390/SU142316052;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780628;Flexible conditional density estimation for time series;10.1214/24-BJPS601;;2301.09671;0;1.85;0;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780629;Hybrid Nanoparticles of Citrate-Coated Manganese Ferrite and Gold Nanorods in Magneto-Optical Imaging and Thermal Therapy;10.3390/NANO13030434;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780630;Low-dimensional models of single neurons: A review;10.48550/ARXIV.2209.14751;;2209.14751;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780631;Uniform size PEGylated iron oxide nanoparticles as a potential theranostic agent synthesized by a simple optimized coprecipitation route;10.1016/J.JMMM.2022.170091;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780741;Alterações cinemáticas dos membros superiores durante tarefa de alcance em pessoas com doença de Parkinson;;978-65-00-51456-8;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120367545;Multifunctional nanoparticles for ultrasound-guided theranostic application;10.11606/T.59.2023.TDE-30032023-135455;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120368309;Convergence of the temporal averages of a metastable system of spiking neurons;10.1016/J.SPA.2022.11.016;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120369994;Estimação do número de comunidades no modelo estocástico de blocos com correção de grau;10.11606/T.104.2022.TDE-05042023-103310;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120373188;Probabilistic prediction and context tree identification in the goalkeeper game;10.1038/S41598-024-66009-W;;2303.00102;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120373202;MarLe: Markerless estimation of head pose for navigated transcranial magnetic stimulation;10.1007/S13246-023-01263-2;;;37166586;15.60;15;4;6;8;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120379686;A non-expensive bidimensional assessment can detect subtle alterations in gait performance in people in the early stages of Parkinson’s disease;10.3389/FNEUR.2023.1101650;;;37153678;0.75;13;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120379714;Ferrite Shield to Enhance the Performance of Optically Pumped Magnetometers for Fetal Magnetocardiography;10.3390/JCM12093078;;;37176519;1.75;3;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q130040378;Effects of wrist orthoses in reducing pain in individuals with carpal tunnel syndrome: a systematic review;10.1080/09638288.2023.2301019;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q130224340;Construção de um Curso Online Conectivista: a Wikiversidade no Ensino da Saúde Auditiva;10.18264/EADF.V14I1.2212;;;0;3.00;1;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q131290427;On a Finite-Size Neuronal Population Equation;10.1137/21M1445041;;;0;1.25;11;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290429;The surface electrode placement determines the magnitude of motor potential evoked by transcranial magnetic stimulation;10.1016/J.BSPC.2023.104781;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290432;Estratégias discursivas para a comunicação científica: dilemas entre o jargão e a metáfora;10.11606/ISSN.1982-1689.ANAGRAMA.2023.213983;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290433;Caracterizando a dinâmica de treino por simulação mental: aspectos teóricos, comportamentais e eletrofisiológicos;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290434;Efeito imediato do uso de órtese de punho na coordenação muscular e na cinemática da extremidade superior de indivíduos sem disfunção e com síndrome do túnel do carpo;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290435;No additional tournaments are quasirandom forcing;;;1912.04243;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290436;Effect of muscle length in a handgrip task on corticomotor excitability of extrinsic and intrinsic hand muscles under resting and submaximal contraction conditions;10.1111/SMS.14477;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290437;Comparison of disability level between Early and Late Onset Parkinson's Disease using WHODAS 2;10.3389/FNEUR.2023.1281537;;;38033768;0.50;16;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290438;On the Functional Role of Gamma Synchronization in the Retinogeniculate System of the Cat;10.1523/JNEUROSCI.1550-22.2023;;;37328291;1.50;13;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290441;Conversando com o cérebro – Uma introdução a técnicas de estimulação cerebral não invasivas;10.29384/RBFM.2024.V18.19849001762;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290442;Robotic-electronic platform for autonomous and accurate transcranial magnetic stimulation targeting;10.1016/J.BRS.2024.03.022;;;38582491;22.20;14;6;8;10;2;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290444;A Quasi-Stationary Approach to Metastability in a System of Spiking Neurons with Synaptic Plasticity;10.46298/MNA.7668;;2403.09678;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290445;Estimation and model selection for graphical models under mixing conditions;10.11606/T.45.2024.TDE-25042024-181144;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290446;A cone-beam optical CT based on a convergent light source – Characterization and optimization;10.1016/J.EJMP.2024.103415;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290447;A Computational Model for the Simulation of Prepulse Inhibition and Its Modulation by Cortical and Subcortical Units;10.3390/BRAINSCI14050502;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290448;A Density-Based Model for Mosquito Swarms;10.1007/S13538-024-01536-5;;;0;20.00;1;0;3;3;3;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290449;A network-level stochastic model for pacemaker GABAergic neurons in substantia nigra pars reticulata;10.3390/MATH11173778;;;0;1.00;2;0;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290450;Assessment of dosimetric sensitivity enhancement of xylenol orange Fricke gel by AuNPs: optical and MR imaging investigation;10.1088/1361-6560/AD04A9;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290451;Associação entre o desempenho do equilíbrio em testes funcionais e análise cinemática bidimensional em pessoas com doença de Parkinson;10.11606/D.5.2023.TDE-21112023-152356;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290452;Characterization of Radiochromic Hydrogel Dosimeter-Ferrous Xylenol Orange Enhanced to Have a Higher Melting Point;10.1007/S13538-024-01521-Y;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290453;Clustering Sets of Functional Data by Similarity in Law;10.48550/ARXIV.2312.16656;;2312.16656;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290454;Fine-tuning and SOqC in a neuronal network model;10.1063/5.0133056;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290455;Forearm Posture Affects the Corticospinal Excitability of Intrinsic and Extrinsic Hand Muscles in Dominant and Nondominant Sides;10.1123/JAB.2022-0314;;;38925535;0.75;7;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290456;Intensity-modulated radiotherapy quality assurance by alanine-EPR and gel dosimetry of a simulated prostate treatment with bilateral metallic prostheses;10.1016/J.RADMEAS.2024.107152;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290457;Less is different: Why sparse networks with inhibition differ from complete graphs;10.1103/PHYSREVE.108.024315;;2302.07927;37723743;1.50;6;3;3;3;0;0;0;0;0;0;2302.07927;0
+http://www.wikidata.org/entity/Q131290459;Model selection for Markov random fields on graphs under a mixing condition;10.48550/ARXIV.2311.01999;;2311.01999;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290459;Model selection for Markov random fields on graphs under a mixing condition;10.1016/J.SPA.2024.104523;;2311.01999;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290460;Low-dimensional models of single neurons: a review;10.1007/S00422-023-00960-1;;;37060453;3.25;17;6;6;6;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290461;Aspectos motores, não motores e sociais na saúde sexual de mulheres vivendo com Doença de Parkinson;10.11606/D.5.2023.TDE-14122023-162545;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290462;Optimal input reverberation and homeostatic self-organization toward the edge of synchronization;10.1063/5.0202743;;2402.05032;38767461;0.50;2;2;2;2;0;0;0;0;0;0;2402.05032;0
+http://www.wikidata.org/entity/Q131290464;Padrões de atividade oscilatória em um modelo detalhado do córtex pré-frontal;10.11606/D.59.2023.TDE-03082023-165955;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290465;Performance of electrochemical oxidation of Disperse Yellow 3 dye over BDD anodes;10.1007/S10008-024-05994-4;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290466;Propagation of chaos and phase transition in a stochastic model for a social network;10.48550/ARXIV.2405.18200;;2405.18200;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290468;Structure recovery for partially observed discrete Markov random fields on graphs under not necessarily positive distributions;10.1111/SJOS.12674;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290469;The Impact of Motor, Non-Motor, and Social Aspects on the Sexual Health of Men Living with Parkinson's Disease;10.3233/JPD-230212;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131685574;Variedades  sociotécnicas  na  produção  colaborativa  de conhecimento;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131760511;Wikidata para estruturação de perfis institucionais acadêmicos: um estudo de caso de publicações acadêmicas do NeuroMat;10.5007/1518-2924.2025.E100592;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171707;Medidas de difusão científica no YouTube: o caso do CEPID NeuroMat;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171708;[Re] Inter-areal Balanced Amplification Enhances Signal Propagation in a Large-Scale Circuit Model of the Primate Cortex;10.5281/ZENODO.10276194;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171709;A non-expensive bidimensional kinematic balance assessment can detect early postural instability in people with Parkinson’s disease;10.3389/FNEUR.2023.1243445;;;38046589;1.75;12;4;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171710;Threshold detection under a semiparametric regression model;10.1007/S10463-025-00958-5;;2310.18733;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171711;Regression Trees for Fast and Adaptive Prediction Intervals;10.2139/SSRN.4729599;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171712;O impacto dos aspectos motores, não motores e sociais na saúde sexual de homens vivendo com a doença de Parkinson;10.11606/D.47.2023.TDE-29022024-104851;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171714;Distribution-Free Calibration of Statistical Confidence Sets;10.48550/ARXIV.2411.19368;;2411.19368;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171717;Dopamine facilitates the response to glutamatergic inputs in astrocyte cell models;10.1371/JOURNAL.PCBI.1012688;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171718;Extracting the fingerprints of sequences of random rhythmic auditory stimuli from electrophysiological data;10.1371/JOURNAL.PCBI.1012765;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171719;Real-Time Tractography-Assisted Neuronavigation for Transcranial Magnetic Stimulation;10.1002/HBM.70122;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171720;Wide-range emission of Er3+/Yb3+ co-doped lanthanum niobates: A study of temperature and excitation-dependent luminescence aiming at applications in Biophotonics;10.1016/J.OPTMAT.2024.116383;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171723;Improving the Theranostic Potential of Magnetic Nanoparticles by Coating with Natural Rubber Latex for Ultrasound, Photoacoustic Imaging, and Magnetic Hyperthermia: An In Vitro Study;10.3390/PHARMACEUTICS16111474;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171724;A message-passing approach to obtain the trace of matrix functions with applications to network analysis;10.1007/S11075-025-02012-0;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171725;Simulated study relating dose-volume histogram metrics to three-dimensional gamma analysis results;10.36922/ARNM.4005;;;0;0.50;0;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132192160;Multi-locus transcranial magnetic stimulation system for electronically targeted brain stimulation;10.1016/J.BRS.2021.11.014;;;34818580;26.85;65;24;27;31;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132192161;Individualized treatment of motor stroke: A perspective on open-loop, closed-loop and adaptive closed-loop brain state-dependent TMS;10.1016/J.CLINPH.2023.10.004;;;37945452;12.60;13;6;7;11;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132192163;Accuracy and precision of navigated transcranial magnetic stimulation;10.1088/1741-2552/ACA71A;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132586166;Emergência da extensão universitária digital: boas práticas e direcionamentos;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q133798727;The impact of motor, non-motor, and social aspects on the sexual health of women living with Parkinson's disease;10.1177/1877718X251315375;;;39995067;8.00;21;0;1;1;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q133798729;Modulation of Neuronal Firing Modes by Electric Fields in a Thermosensitive FitzHugh-Nagumo Model;10.48550/ARXIV.2502.08618;;2502.08618;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q135442503;Adding Space to Random Networks of Spiking Neurons: A Method Based on Scaling the Network Size;10.1162/NECO_A_01747;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q135457254;Emergência da extensão universitária digital: boas práticas e direcionamentos;10.1590/1983-3652.2025.56372;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q135457255;Three-Dimensional Gel Dosimetry in a Simulated Postmastectomy with Expandable Prosthesis Radiotherapy;10.3390/GELS11050335;;;40422355;4.00;3;0;1;1;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q139795801;Ciencia aberta na América Latina;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054499;The size Ramsey number of short subdivisions of bounded degree graphs;10.1002/RSA.20783;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054500;Synaptic noise induces intermittent oscillatory-quiescent state transitions in a spiking network model;;;1709.09748v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054503;Processos Estocásticos Conduzidos por Cadeias com Memória de Alcance Variável eo Jogo do Goleiro;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054505;Mapeamento mental através da análise computacional do discurso;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054506;Asymmetric hyperpolarized and depolarized subthreshold resonance in neurons;;;1804.04748v2;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054508;Dimensionality reduction in neuroscience and Epidemiology;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054509;Self-sustained activity in balanced networks with low firing-rate;10.48550/ARXIV.1809.01020;;1809.01020v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054511;Modelos computacionais prognósticos de lesões traumáticas do plexo braquial em adultos;10.11606/D.45.2018.TDE-20082018-140641;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054512;A obra de arte na era das convergências digitais;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054515;Counting results for sparse pseudorandom hypergraphs I;10.1016/J.EJC.2017.04.008;;1602.08782;0;0.50;5;2;2;2;0;0;0;0;0;0;1602.08782;0
+http://www.wikidata.org/entity/Q102054517;A system of interacting neurons with short term plasticity;10.48550/ARXIV.1903.01270;;1903.01270v1;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054518;Cadeias estocásticas de memória ilimitada com aplicação na neurociência;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054520;Corticalização de memória dependente do hipocampo durante o sono REM - Investigando as janelas temporais precoce (0 - 3 h) e tardia (8 - 16 h) após o aprendizado;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054522;Predição de eventos ocorrendo no espaço ao redor da mão: um estudo eletroencefalográfico em indivíduos saudáveis e em pacientes com lesão do plexo braquial;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054524;Estimulação magnética transcraniana: uma breve revisão dos princípios e aplicações;10.29384/RBFM.2019.V13.N1.P49-56;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054526;Two conjectures about correlation inequalities;10.48550/ARXIV.1306.0862;;1306.0862v4;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054528;Comparison of EEG functional connectivity using correlation or information-theoretical measures;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054530;Characterization of novel polydiacetylene gel dosimeter for radiotherapy;10.1088/2057-1976/ABA638;;;33444248;0.75;18;1;2;2;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054531;Modeling cortical and thalamocortical mechanisms involved in alpha generation;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054533;O conceito de Jornalismo Computacional ante as potencialidades das narrativas estruturadas;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054534;Motor potential evoked by transcranial magnetic stimulation depends on the placement protocol of recording electrodes: a pilot study;10.1088/2057-1976/AB950A;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054540;Avaliação do aprendizado de sequências determinísticas e probabilísticas na doença de Parkinson;10.11606/D.47.2020.TDE-03082020-122150;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054542;On the subthreshold resonance properties of neurons;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054544;Implementation of the Potjans-Diesmann cortical microcircuit model in NetPyNE/NEURON with rescaling option;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054546;Effects of spike frequency adaptation on dynamics of a multi-layered cortical network with heterogeneous neuron types;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054547;Acetylcholine modulation in a biophysical model of cortical neuron;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054549;Adequação de protocolos de exportação de um sistema de gestão de experimentos neurocientíficos às especificações de dados sem atrito;10.5585/IPTEC.V8I1.16783;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102332070;Magnetic separation of iron oxide nanoparticles to improve their application for magnetic particle imaging;10.1088/1361-6560/ABCD19;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q103747125;Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering related to fear of contagion;10.1371/JOURNAL.PONE.0242903;;;33253274;269.50;142;27;66;71;30;7;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q104500093;Selective Inhibition of Mirror Invariance for Letters Consolidated by Sleep Doubles Reading Fluency;10.1016/J.CUB.2020.11.031;;;33338430;116.85;116;135;140;154;2;0;3;0;0;0;0;0
+http://www.wikidata.org/entity/Q104696683;O uso da Wikiversidade no ensino do jornalismo científico: abertura, colaboração e conectivismo;10.35699/1983-3652.2021.24935;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105771808;Estimating Parameters Associated with Monotone Properties;10.4230/LIPICS.APPROX-RANDOM.2016.35;978-3-95977-018-7;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816104;Multiple Phase Transitions for an Infinite System of Spiking Neurons;10.1007/S10955-022-02931-5;;2102.03416;0;0.25;1;1;1;8;0;0;0;0;0;0;2102.03416;0
+http://www.wikidata.org/entity/Q105816105;Self-Switching Markov Chains: emerging dominance phenomena;10.48550/ARXIV.2010.13279;;2010.13279;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816106;Conditional propagation of chaos for mean field systems of interacting neurons;10.48550/ARXIV.1909.02925;;1909.02925;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816108;A self‐reported clinical tool predicts falls in people with Parkinson's disease;10.1002/MDC3.13170;;;33816673;6.55;44;10;11;13;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816109;Statistical complexity is maximized close to criticality in cortical dynamics;10.1103/PHYSREVE.103.012415;;2010.04123;33601583;5.35;25;9;9;9;0;0;0;0;0;0;2010.04123;0
+http://www.wikidata.org/entity/Q105816112;Predicting Upcoming Events Occurring in the Space Surrounding the Hand;10.1155/2021/6649135;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816113;Enhanced optical cross-section of radiation induced defect centers under plasmon resonance conditions: Shifting stimulation wavelength of optically stimulated luminescence dosimeters;10.1016/J.JLUMIN.2020.117841;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816115;Difusão sincrônica: explorando as problemáticas de uma comunicação simultânea à produção científica;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816116;O papel do jornalismo no combate à desinformação científica: uma revisão de literatura;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816117;Approximate Bayesian inference for the Rosenblatt distribution;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816138;Jornalismo Científico: Prática e Revisão de Literatura;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q107182593;Variedades de processos de difusão digital colaborativa: descrição e análise de iniciativas GLAM-Wiki no Brasil;10.20396/RESGATE.V29I1.8659966;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q110991173;Completude, consistência e correção em bases de dados digitais sobre mortos e desaparecidos políticos na ditadura civil-militar brasileira;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436285;Boosted UV emission on the optically and thermally stimulated luminescence of CaB6O10:Gd,Ag phosphors excited by X-rays;10.1016/J.APMT.2020.100829;;;0;0.50;10;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436292;Clinical and self-reported falls prediction tools in people with Parkinson’s disease;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436488;Mechanisms of Self-Organized Quasicriticality in Neuronal Network Models;10.3389/FPHY.2020.583213;;;0;0.50;31;2;2;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436771;Phase transition and metastability in a stochastic system of spiking neurons;10.11606/T.45.2020.TDE-01032021-124843;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436779;Self-Switching Markov Chains: Emerging dominance phenomena;10.1016/J.SPA.2021.10.001;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436781;Studies in cortical network models;10.11606/T.59.2020.TDE-13082020-095609;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436784;[Re] Context-Dependent Encoding of Fear and Extinction Memories in a Large-Scale Network Model of the Basal Amygdala;10.5281/ZENODO.5657320;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436799;2D Quantitative Imaging of Magnetic Nanoparticles by an AC Biosusceptometry Based Scanning Approach and Inverse Problem;10.3390/S21217063;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436805;A protocol to examine the learning effects of ‘multisystem mapping’ training combined with post-training sleep consolidation in beginning readers;10.1016/J.XPRO.2021.100712;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436817;Antioxidative activity of gold and platinum nanoparticles assessed through electron spin resonance;10.26850/1678-4618EQJ.V46.1SI.2021.P68-74;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436827;Avalanche neuronal em redes de neurônios estocásticos tipo integra-dispara com topologia Watts-Strogatz;10.11606/D.59.2021.TDE-27102021-161449;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436831;Building a model of the brain: from detailed connectivity maps to network organization;10.1140/EPJS/S11734-021-00152-7;;2106.03995;0;4.35;29;8;8;9;0;0;0;0;0;0;2106.03995;0
+http://www.wikidata.org/entity/Q111436855;Community detection in graphs;10.11606/D.45.2021.TDE-24022021-164949;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436868;Composition, Structural and Optical Properties of Golden Grass;10.1007/S13538-021-01000-8;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436891;Concentration Bounds for Plug-In Estimator of Directed Information;10.1109/TIT.2021.3075612;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436922;Conversion factor for size specific dose estimation of head CT scans based on age, for individuals from 0 up to 18 years old;10.1088/1361-6560/ABE559;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436940;Cyclic alternation of quiet and active sleep states in the octopus;10.1016/J.ISCI.2021.102223;;;33997665;1776.00;127;320;542;644;183;20;3;0;4;0;0;3
+http://www.wikidata.org/entity/Q111436946;Dose enhancement factor caused by gold nanoparticles: influence of the dosimetric sensitivity and radiation dose assessed by electron spin resonance dosimetry;10.1088/1361-6560/AC2BB2;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436968;ESR dating of Toxodon teeth from Baixa Grande, Bahia, Brazil;10.1016/J.JSAMES.2021.103616;;;0;3.00;15;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q111436971;Estimating the interaction graph of stochastic neuronal dynamics by observing only pairs of neurons;10.48550/ARXIV.2106.07529;;2106.07529;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436971;Estimating the interaction graph of stochastic neuronal dynamics by observing only pairs of neurons;10.1016/J.SPA.2022.03.016;;2106.07529;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436974;Feedforward and feedback influences through distinct frequency bands between two spiking-neuron networks;10.1103/PHYSREVE.104.054404;;2106.05783;34942789;6.25;11;11;12;13;0;0;0;0;0;0;2106.05783;0
+http://www.wikidata.org/entity/Q111436992;Hierarchical clustering: visualization, feature importance and model selection;10.48550/ARXIV.2112.01372;;2112.01372;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436999;Hippocampus-retrosplenial cortex interaction is increased during phasic REM and contributes to memory consolidation;10.1038/S41598-021-91659-5;;;34158548;19.65;99;32;32;35;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437000;Homeostatic criticality in neuronal networks;10.1016/J.CHAOS.2022.111877;;2109.02718;0;1.75;20;5;5;6;0;0;0;0;0;0;2109.02718;0
+http://www.wikidata.org/entity/Q111437001;Impact of the activation rate of the hyperpolarization- activated current $$\hbox {I}_{\mathrm{h}}$$ on the neuronal membrane time constant and synaptic potential duration;10.1140/EPJS/S11734-021-00176-Z;;2106.03902;0;0.75;2;2;2;2;0;0;0;0;0;0;2106.03902;0
+http://www.wikidata.org/entity/Q111437003;Influence of motor impairment on exercise capacity and quality of life in patients with Parkinson disease;10.12965/JER.2142290.145;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437005;Kinematic Changes in the Uninjured Limb After a Traumatic Brachial Plexus Injury;10.3389/FNHUM.2021.777776;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437008;Late Pleistocene-Holocene fossils from Mirim Lake, southern Brazil, and their paleoenvironmental significance: II – Mollusks;10.1016/J.JSAMES.2021.103546;;;0;15.00;27;0;3;3;0;3;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437013;Medindo a massa inercial usando uma balança romana;10.1590/1806-9126-RBEF-2021-0253;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437049;Metastability in a System of Spiking Neurons with Synaptic Plasticity;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437091;Modeling and characterizing stochastic neurons based on in vitro voltage-dependent spike probability functions;10.1140/EPJS/S11734-021-00160-7;;2106.03610;0;0.50;2;1;1;1;0;0;0;0;0;0;2106.03610;0
+http://www.wikidata.org/entity/Q111437093;Modelos de redes de neurônios para o neocórtex e fenômenos emergentes observados;10.1590/1806-9126-RBEF-2020-0452;;;0;0.50;5;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437100;Multidimensional Factors Can Explain the Clinical Worsening in People With Parkinson's Disease During the COVID-19 Pandemic: A Multicenter Cross-Sectional Trial;10.3389/FNEUR.2021.708433;;;34393984;1.50;89;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437102;Neuronal avalanches in Watts-Strogatz networks of stochastic spiking neurons;10.1103/PHYSREVE.104.014137;;;34412363;2.60;10;4;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437110;Population based change-point detection for the identification of homozygosity islands;10.48550/ARXIV.2111.10187;;2111.10187;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437122;Prime numbers and random walks in a square grid;10.1103/PHYSREVE.104.054114;;2105.12547;34942739;8.75;2;4;5;8;0;1;0;0;0;0;2105.12547;0
+http://www.wikidata.org/entity/Q111437133;Strong error bounds for the convergence to its mean field limit for systems of interacting neurons in a diffusive scaling;10.48550/ARXIV.2111.05213;;2111.05213;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437134;Sublinear association between cortical thickness at the onset of the adult lifespan and age-related annual atrophy parallels spatial patterns of laminar organization in the adult cerebral cortex;10.1016/J.YNIRP.2021.100011;;;40567863;0.75;36;1;2;3;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437137;Um modelo de avaliação do realismo, da interatividade e da sensação de presença na realidade virtual: a difusão científica em vídeos 360 graus no YouTube;10.33448/RSD-V11I2.24850;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437148;Application of Electron Spin Resonance Spectroscopy in Bone Regeneration Studies;10.1007/S13538-022-01060-4;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437188;ESR dosimetry with lithium, potassium, and sodium compounds;10.1016/J.APRADISO.2022.110105;;;35063871;1.00;10;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437204;LSD, afterglow and hangover: Increased episodic memory and verbal fluency, decreased cognitive flexibility;10.1016/J.EURONEURO.2022.01.114;;;35158230;14.85;118;10;21;26;0;1;1;0;1;0;0;0
+http://www.wikidata.org/entity/Q111437221;The neuroscience experiments system (NES): a software tool to manage experimental data and its provenance;10.3389/FNINF.2021.768615;;;35069167;2.25;25;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437222;TMS with fast and accurate electronic control: Measuring the orientation sensitivity of corticomotor pathways;10.1016/J.BRS.2022.01.009;;;35038592;4.80;42;7;7;7;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q112308023;A infraestrutura Técnica de Iniciativas Culturais na Wikimedia: Três Estudos de Caso do Brasil;10.21409/QJSC-BK48;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166879;Metastability in systems of interacting point processes with memory of variable length modeling social and neuronal networks;10.11606/T.45.2022.TDE-30062022-150540;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166884;Metastability in a Stochastic System of Spiking Neurons with Leakage;10.48550/ARXIV.2205.05191;;2205.05191;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166886;Nootropic effects of LSD: Behavioral, molecular and computational evidence;10.1016/J.EXPNEUROL.2022.114148;;;35732217;106.10;108;25;51;59;9;3;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166891;Impressões digitais eletroencefalográficas de seleção de modelos estatísticos pelo cérebro;10.11606/T.95.2022.TDE-02032022-151157;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166904;CD-split and HPD-split: Efficient Conformal Regions in High Dimensions;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166972;Effects of Capoeira on children's executive functions: A randomized controlled trial;10.1016/J.MHPA.2022.100451;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167013;Computational study of thalamocortical interactions: simulating oscillatory activity;10.11606/T.59.2021.TDE-06122021-160402;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167023;Forearm and Hand Muscles Exhibit High Coactivation and Overlapping of Cortical Motor Representations;10.1007/S10548-022-00893-1;;;35262840;1.85;26;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167024;Fast Consensus and Metastability in a Highly Polarized Social Network;10.48550/ARXIV.2202.12871;;2202.12871;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054498;Tecnologias colaborativas na difusão científica: um relato dos usos e apropriações da Wikipédia no CEPID NeuroMat;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167029;Development and Evaluation of Cone-Beam Optical Ct Based on the Convergent Light Source for Larger Volumes;10.2139/SSRN.4100994;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799516;A model for neural activity in the absence of external stimuli;10.48550/ARXIV.1410.6086;;1410.6086;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q98799516;A model for neural activity in the absence of external stimuli;10.48550/ARXIV.1410.6086;;1410.6086v5;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496224;Statistical Methods in Graphs: Parameter Estimation, Model Selection, and Hypothesis Test;10.1002/9783527693245.CH6;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496256;A Note on Bayesian Inference for Long-Range Dependence of a Stationary Two-State Process;10.1007/978-3-319-12454-4_25;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496259;A Review of Guidelines and Models for Representation of Provenance Information from Neuroscience Experiments;10.1007/978-3-319-40593-3_26;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496260;Property Testing for Point Sets on the Plane;10.1007/978-3-319-77404-6_43;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496262;A Tight Lower Bound for an Online Hypercube Packing Problem and Bounds for Prices of Anarchy of a Related Game;10.1007/978-3-319-77404-6_51;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496367;A Bayesian approach for convex combination of two Gumbel-Barnett copulas;10.1063/1.4825802;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496386;Head and gaze tracking of unrestrained marmosets;10.1101/079566;;;0;2.60;16;6;6;6;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496392;Goalkeeper game: a new assessment instrument in neurology showed higher predictive power than moca for gait performance in people with parkinson’s disease;10.1101/400457;;;0;3.75;6;7;8;8;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496393;d-Lysergic acid diethylamide has major potential as a cognitive enhancer;10.1101/866814;;;0;21.45;29;31;35;37;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q101496486;Plasticity in the Brain after a Traumatic Brachial Plexus Injury in Adults;10.5772/INTECHOPEN.77133;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054457;Estimating the structure of interacting coordinates for a multivariate stochastic process;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054463;Wikipédia em sala de aula: uma revisão bibliográfica;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054466;Guidelines for Developing Electronic Questionnaires to Collect Experimental Data;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054471;Fast implementation of the Smallest Maximizer Criterion for unbounded context tree model selection;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q102054502;Graph Theory Applied to Speech: Insights on Cognitive Deficit Diagnosis and Dream Research;10.1017/9781316676974.004;978-1-107-16222-8;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q105816114;A unified theory of E/I synaptic balance, quasicritical neuronal avalanches and asynchronous irregular spiking;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q107649626;Repositório Institucional do NeuroMat;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q108545648;Estruturando Referências Bibliográficas: Levando a Revista Anais do Museu Paulista para o Wikidata;10.3998/MPUB.11778416.CH17.EN;;;0;27.15;0;30;32;43;0;0;0;0;0;0;0;2
+http://www.wikidata.org/entity/Q108545889;Estruturando Referências Bibliográficas: Levando a Revista Anais do Museu Paulista para o Wikidata;10.3998/MPUB.11778416.CH17.PT;;;0;3.35;0;4;4;8;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q110297826;Riscos e oportunidades na difusão digital de museus: uma revisão bibliográfica;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111436985;TMS with fast and accurate electronic control: measuring the orientation sensitivity of corticomotor pathways;10.1101/2021.08.20.457096;;;0;1.50;6;4;5;5;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437116;Geografia, Riscos e Proteção Civil. Homenagem ao Professor Doutor Luciano Lourenço. Volume 1;10.34037/978-989-9053-04-5_1.1;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437128;Probabilistic spiking neuronal nets - Neuromathematics for the computer era;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437130;Probing the orientation specificity of excitatory and inhibitory circuitries in the primary motor cortex with multi-channel TMS;10.1101/2021.08.20.457101;;;0;2.00;16;5;6;6;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q111437152;Citações vs Altmetric Attention Score: Uma análise dos artigos do CEPID NeuroMat;10.31235/OSF.IO/DHJA3;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113166973;Quantitative imaging of magnetic nanoparticles in an unshielded environment using a large AC susceptibility array;10.21203/RS.3.RS-1616879/V1;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167012;Stochastic model in neural network - an application in pacemaker GABAergic neurons;10.21203/RS.3.RS-1606157/V1;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167028;What Lies Behind the Acute Crises: The Social and Infrasystems Links with Disasters in Brazil;10.1007/978-981-16-8352-7_3;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q113167090;Statistical model selection for stochastic systems with applications to Bioinformatics, Linguistics and Neurobiology;;978-65-89124-29-0;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116726287;The Wikipedia Education Program as Open Educational Practice: Global Stories;10.1007/978-981-19-8590-4_12;;;0;1.35;4;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116779505;Experience-dependent phosphoproteomic changes in hippocampus and neocortex correlate with the abundance of spindle oscillations during the transition between SWS and REM sleep;10.21203/RS.3.RS-1842393/V1;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116779525;Upper limb joint coordination acts to preserve hand kinematics after a traumatic brachial plexus injury;10.1101/2022.09.06.506862;;;0;1.50;0;3;5;5;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780531;OPM Gradiometer for Magnetorelaxometry;10.1007/978-3-031-05363-4_12;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780591;Plasticity of the face-hand sensorimotor circuits after a traumatic brachial plexus injury;10.1101/2022.10.13.22281048;;;0;0.25;0;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q116780592;Dopamine facilitates the response to glutamatergic inputs in a computational model of astrocytes;10.1101/2022.11.10.516040;;;0;2.00;0;5;7;7;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q120372169;Real-time tractography-assisted neuronavigation for TMS;10.1101/2023.03.09.531565;;;0;37.80;0;55;57;59;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290428;Kalikow decomposition for counting processes with stochastic intensity and application to simulation algorithms;10.1017/JPR.2023.15;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290431;Threshold selection for extremes under a semiparametric model | Statistical Methods & Applications;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290439;Spatio-temporal learning in a mass-recruiting leaf-cutting ant (Acromyrmex subterraneus);10.1101/2024.06.12.598721;;;0;1.50;1;4;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290443;Characterizing an electronic–robotic targeting platform for precise and fast brain stimulation with multi-locus transcranial magnetic stimulation;10.1101/2024.03.12.584601;;;0;1.25;4;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290458;Mapping Referred Sensation In Traumatic Brachial Plexus Injury Patients;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290463;Optimal recovery by maximum and integrated conditional likelihood in the general Stochastic Block Model;10.48550/ARXIV.2311.10153;;2311.10153;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290467;Sexual health in women with Parkinson’s disease: Motor, non-motor, and social impacts;10.1101/2023.08.30.23294846;;;0;0.25;0;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290470;Response times are affected by mispredictions in a stochastic game | Scientific Reports;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q131290473;What comes next? response times are affected by mispredictions in a stochastic game;10.48550/ARXIV.2309.09813;;2309.09813;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171715;Consistent model selection for estimating functional interactions among stochastic neurons with variable-length memory;10.48550/ARXIV.2411.08205;;2411.08205;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171716;Different factors determining Motor Execution and Motor Imagery performance in a serial reaction time task with intrinsic variability;10.48550/ARXIV.2412.05319;;2412.05319;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171721;Treino Imaginativo: a imaginação como estratégia inovadora de aprendizagem de ações motoras;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q132171727;Diverse Calcium Signaling in Astrocytes: Insights from a Computational Model;10.1101/2024.07.03.601899;;;0;0.50;0;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q135457252;Assessing the quality of information about Parkinson's disease on Wikipedia;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q135457253;Effects of a Remote Mental and Physical Practice Intervention on Freezing of Gait in People with Parkinson’s Disease: a Single-Blind Randomized Controlled Trial Protocol;10.1101/2025.04.28.25326452;;;0;0.25;0;0;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q27319423;Synaptic Homeostasis and Restructuring across the Sleep-Wake Cycle;10.1371/JOURNAL.PCBI.1004241;;;26020963;99.90;151;40;60;63;6;5;6;1;0;0;0;0
+http://www.wikidata.org/entity/Q27334972;Biological motion coding in the brain: analysis of visually driven EEG functional networks;10.1371/JOURNAL.PONE.0084612;;;24454734;3.25;75;1;2;2;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q28606697;Can vocal conditioning trigger a semiotic ratchet in marmosets?;10.3389/FPSYG.2015.01519;;;26500583;1.50;42;3;4;4;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q30372614;Machine Learning Algorithms for Automatic Classification of Marmoset Vocalizations;10.1371/JOURNAL.PONE.0163041;;;27654941;13.65;100;19;20;20;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q30845507;The onset of data-driven mental archeology;10.3389/FNINS.2014.00249;;;25165431;2.25;4;3;4;4;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q30847968;Cerebral Dynamics during the Observation of Point-Light Displays Depicting Postural Adjustments;10.3389/FNHUM.2017.00217;;;28533748;1.00;5;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q30848017;Dopamine Modulates Delta-Gamma Phase-Amplitude Coupling in the Prefrontal Cortex of Behaving Rats;10.3389/FNCIR.2017.00029;;;28536507;2.85;92;5;5;5;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q30852795;Thought disorder measured as random speech structure classifies negative symptoms and schizophrenia diagnosis 6 months in advance;10.1038/S41537-017-0019-3;;;28560264;32.00;235;8;15;16;2;1;0;1;1;0;0;0
+http://www.wikidata.org/entity/Q31159075;Undersampled critical branching processes on small-world and random networks fail to reproduce the statistics of spike avalanches;10.1371/JOURNAL.PONE.0094992;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q33965567;Graph analysis of verbal fluency test discriminate between patients with Alzheimer's disease, mild cognitive impairment and normal elderly controls;10.3389/FNAGI.2014.00185;;;25120480;1.50;78;1;3;3;0;0;2;0;0;0;0;0
+http://www.wikidata.org/entity/Q34497038;Increase in hippocampal theta oscillations during spatial decision making;10.1002/HIPO.22260;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q34658978;Graph analysis of dream reports is especially informative about psychosis;10.1038/SREP03691;;;24424108;85.05;278;36;65;68;6;0;19;0;0;0;0;1
+http://www.wikidata.org/entity/Q34677605;Automated analysis of free speech predicts psychosis onset in high-risk youths;10.1038/NPJSCHZ.2015.30;;;27336038;338.25;919;157;226;262;17;13;8;11;1;0;0;1
+http://www.wikidata.org/entity/Q34678767;Observing Grasping Actions Directed to Emotion-Laden Objects: Effects upon Corticospinal Excitability;10.3389/FNHUM.2016.00434;;;27625602;3.25;38;1;3;3;0;0;0;0;0;0;0;2
+http://www.wikidata.org/entity/Q35707955;Primary Motor Cortex Representation of Handgrip Muscles in Patients with Leprosy;10.1371/JOURNAL.PNTD.0003944;;;26203653;69.00;54;2;14;14;7;4;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q35810494;Self-Organized Near-Zero-Lag Synchronization Induced by Spike-Timing Dependent Plasticity in Cortical Populations;10.1371/JOURNAL.PONE.0140504;;;26474165;2.00;27;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q36495656;Balance Impairments after Brachial Plexus Injury as Assessed through Clinical and Posturographic Evaluation.;10.3389/FNHUM.2015.00715;;;26834610;0.25;59;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q36531526;Is the Frequency in Somatosensory Electrical Stimulation the Key Parameter in Modulating the Corticospinal Excitability of Healthy Volunteers and Stroke Patients with Spasticity?;10.1155/2016/3034963;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q36665610;Psychosis and the Control of Lucid Dreaming;10.3389/FPSYG.2016.00294;;;27014118;72.25;174;24;43;44;6;2;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q36687899;On Sequence Learning Models: Open-loop Control Not Strictly Guided by Hick's Law;10.1038/SREP23018;;;26975409;4.50;30;2;5;5;0;0;0;0;0;0;0;3
+http://www.wikidata.org/entity/Q36687980;Motor Coordination Correlates with Academic Achievement and Cognitive Function in Children;10.3389/FPSYG.2016.00318;;;27014130;3.95;398;5;8;8;0;0;2;0;0;0;0;0
+http://www.wikidata.org/entity/Q36754707;Modelling intracellular competition for calcium: kinetic and thermodynamic control of different molecular modes of signal decoding;10.1038/SREP23730;;;27033299;1.00;34;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37147896;Stochastic Induction of Long-Term Potentiation and Long-Term Depression;10.1038/SREP30899;;;27485552;5.00;46;3;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37215033;Neurophysiologic Correlates of Post-stroke Mood and Emotional Control;10.3389/FNHUM.2016.00428;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37368582;Ih Equalizes Membrane Input Resistance in a Heterogeneous Population of Fusiform Neurons in the Dorsal Cochlear Nucleus;10.3389/FNCEL.2016.00249;;;27833532;0.25;41;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37606159;Effect of TMS coil orientation on the spatial distribution of motor evoked potentials in an intrinsic hand muscle;10.1515/BMT-2016-0240;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37702484;An investigation of Hebbian phase sequences as assembly graphs;10.3389/FNCIR.2014.00034;;;24782715;1.00;72;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q37743261;Coupled variability in primary sensory areas and the hippocampus during spontaneous activity;10.1038/SREP46077;;;28393914;2.00;31;4;5;5;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q38342323;Sleep deprivation and gene expression;10.1007/7854_2014_360;;;25646722;13.00;76;1;2;2;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q38669122;Electrophysiological Evidence That the Retrosplenial Cortex Displays a Strong and Specific Activation Phased with Hippocampal Theta during Paradoxical (REM) Sleep;10.1523/JNEUROSCI.0026-17.2017;;;28729438;12.10;154;20;21;22;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q38670635;Anticipated synchronization in neuronal circuits unveiled by a phase-response-curve analysis;10.1103/PHYSREVE.95.052410;;1703.03444;28618595;1.50;18;3;3;3;0;0;0;0;0;0;1703.03444;0
+http://www.wikidata.org/entity/Q38837047;Contrast response functions in the visual wulst of the alert burrowing owl: a single-unit study;10.1152/JN.00505.2015;;;27466135;0.25;23;0;1;1;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q38851713;Computational Tracking of Mental Health in Youth: Latin American Contributions to a Low-Cost and Effective Solution for Early Psychiatric Diagnosis;10.1002/CAD.20159;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q39362434;Mechanisms of Self-Sustained Oscillatory States in Hierarchical Modular Networks with Mixtures of Electrophysiological Cell Types.;10.3389/FNCOM.2016.00023;;;27047367;1.50;22;1;3;3;0;0;1;1;0;0;0;0
+http://www.wikidata.org/entity/Q39368823;Variability in functional brain networks predicts expertise during action observation;10.1016/J.NEUROIMAGE.2016.09.041;;;27651068;7.65;91;10;13;14;0;0;3;0;0;0;0;0
+http://www.wikidata.org/entity/Q39666695;Investigation of rat exploratory behavior via evolving artificial neural networks.;10.1016/J.JNEUMETH.2016.06.010;;;27328370;1.50;21;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q40725734;Stroke and Neurodegeneration Induce Different Connectivity Aberrations in the Insula;10.1161/STROKEAHA.115.009598;;;26185182;10.00;70;2;4;4;1;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q41114000;Relationships of Balance, Gait Performance, and Functional Outcome in Chronic Stroke Patients: A Comparison of Left and Right Lesions;10.1155/2015/716042;;;26583129;1.00;144;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q41154332;Diversity improves performance in excitable networks;10.7717/PEERJ.1912;;1507.05249;27168961;4.85;40;9;10;11;0;0;1;0;0;0;1507.05249;0
+http://www.wikidata.org/entity/Q41437086;Can the Recording of Motor Potentials Evoked by Transcranial Magnetic Stimulation Be Optimized?;10.3389/FNHUM.2017.00413;;;28860981;0.75;33;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q41811563;Motor planning of goal-directed action is tuned by the emotional valence of the stimulus: a kinematic study.;10.1038/SREP28780;;;27364868;0.25;61;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q42360413;Reduced functional connectivity within the primary motor cortex of patients with brachial plexus injury;10.1016/J.NICL.2016.07.008;;1506.07889;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q42373200;Phase transitions and self-organized criticality in networks of stochastic spiking neurons;10.1038/SREP35831;;1606.06391;27819336;19.75;138;4;10;19;2;0;0;0;0;0;1606.06391;1
+http://www.wikidata.org/entity/Q45770589;Effect of synaptic plasticity on functional connectivity and global activity of a neocortical network model;10.1186/1471-2202-16-S1-P210;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q46475067;A cortical multi-layered model and the properties of its internally-generated activity;10.1186/1471-2202-16-S1-P209;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q47113869;The role of negative conductances in neuronal subthreshold properties and synaptic integration;10.1007/S12551-017-0300-8;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q47667701;D2 dopamine receptor regulation of learning, sleep and plasticity;10.1016/J.EURONEURO.2015.01.011;;;25778861;2.25;90;2;5;9;0;0;3;0;0;0;0;0
+http://www.wikidata.org/entity/Q47940060;Anticipated and zero-lag synchronization in motifs of delay-coupled systems;10.1063/1.5006932;;;29195321;1.25;28;2;3;4;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q47981034;Bootstrap testing for cross-correlation under low firing activity;10.1007/S10827-015-0557-5;;1412.5004;25868704;1.75;19;3;3;3;0;0;0;0;0;0;1412.5004;0
+http://www.wikidata.org/entity/Q48184866;Can somatosensory electrical stimulation relieve spasticity in post-stroke patients? A TMS pilot study.;10.1515/BMT-2016-0162;;;28475487;1.00;43;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q48184929;A Negative Slope Conductance of the Persistent Sodium Current Prolongs Subthreshold Depolarizations.;10.1016/J.BPJ.2017.06.047;;;28732557;0.50;23;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q49585055;Non-Decaying postsynaptics potentials and delayed spikes in hippocampal pyramidal neurons generated by a zero slope conductance created by the persistent Na+ current.;10.1080/19336950.2018.1433940;;;29380651;0.50;6;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q50301406;Inhibitory loop robustly induces anticipated synchronization in neuronal microcircuits;10.1103/PHYSREVE.94.042411;;1609.04419;27841618;0.75;29;2;2;2;0;0;0;0;0;0;1609.04419;0
+http://www.wikidata.org/entity/Q52095021;Correlations induced by depressing synapses in critically self-organized networks with quenched dynamics.;10.1103/PHYSREVE.95.042303;;1604.05779;28505838;2.50;17;5;5;6;0;0;0;0;0;0;1604.05779;0
+http://www.wikidata.org/entity/Q52147341;Neurophysiologic predictors of motor function in stroke;10.3233/RNN-150550;;;26518670;8.00;89;0;1;1;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q52351192;Self-Consistent Scheme for Spike-Train Power Spectra in Heterogeneous Sparse Networks;10.3389/FNCOM.2018.00009;;;29551968;2.00;26;4;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q52601009;Multi-locus transcranial magnetic stimulation-theory and implementation;10.1016/J.BRS.2018.03.014;;;29627272;14.65;138;12;15;17;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q52651178;An ANOVA approach for statistical comparisons of brain networks;10.1038/S41598-018-23152-5;;;29549369;2.25;101;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q55940822;Multi-class oscillating systems of interacting neurons;10.1016/J.SPA.2016.09.013;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q56592766;Sistemas Infinitos de Cadeias em Interação com Memória de Alcance Variável—Um Modelo Estocástico para Redes Neurais Biológicas;10.1007/S10955-013-0733-9;;1212.5505;0;3.00;47;0;8;8;0;0;0;0;0;0;1212.5505;8
+http://www.wikidata.org/entity/Q57472014;Computational models of memory consolidation and long-term synaptic plasticity during sleep;10.1016/J.NLM.2018.10.003;;;30321652;2.50;98;4;4;4;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q58601636;A principled multivariate intersubject analysis of generalized partial directed coherence with Dirichlet regression: Application to healthy aging in areas exhibiting cortical thinning;10.1016/J.JNEUMETH.2018.10.033;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q59652224;A Naturalistic Assessment of the Organization of Children's Memories Predicts Cognitive Functioning and Reading Ability;10.1111/MBE.12122;;;0;0.25;82;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q59652229;Physiology and assessment as low-hanging fruit for education overhaul;10.1007/S11125-017-9393-X;;;0;2.50;68;3;5;5;0;0;1;1;0;0;0;0
+http://www.wikidata.org/entity/Q59790700;The maturation of speech structure in psychosis is resistant to formal education;10.1038/S41537-018-0067-3;;;30531913;28.75;80;4;7;8;3;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q61465999;Speech structure links the neural and socio-behavioural correlates of psychotic disorders;10.1016/J.PNPBP.2018.07.007;;;30017778;5.00;163;0;1;1;0;1;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q61631799;The Central Limit Theorem for Supercritical Oriented Percolation in Two Dimensions;10.1007/S10955-018-2040-Y;;1411.4543;0;3.50;0;2;4;4;0;0;0;0;0;0;1411.4543;2
+http://www.wikidata.org/entity/Q64073900;Modeling neuronal avalanches and long-range temporal correlations at the emergence of collective oscillations: Continuously varying exponents mimic M/EEG results;10.1371/JOURNAL.PCBI.1006924;;;30951525;8.95;85;15;16;20;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q64123637;Stochastic oscillations and dragon king avalanches in self-organized quasi-critical systems;10.1038/S41598-019-40473-1;;;30846773;3.00;34;0;1;1;0;0;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q64256742;Portable Devices to Induce Lucid Dreams-Are They Reliable?;10.3389/FNINS.2019.00428;;;31133778;165.95;75;10;42;48;17;2;0;0;1;0;0;3
+http://www.wikidata.org/entity/Q64860742;Anxiety Independently Contributes to Severity of Freezing of Gait in People With Parkinson's Disease;10.1176/APPI.NEUROPSYCH.17090177;;;30187821;0.25;69;0;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q64896444;Dynamics of spontaneous activity in random networks with multiple neuron subtypes and synaptic noise: Spontaneous activity in networks with synaptic noise;10.1007/S10827-018-0688-6;;1709.09748;29923159;3.50;55;6;8;8;0;0;1;0;0;0;1709.09748;0
+http://www.wikidata.org/entity/Q64942885;Post-class naps boost declarative learning in a naturalistic school setting;10.1038/S41539-018-0031-Z;;;30631475;54.60;57;60;63;67;0;1;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q85714625;As potencialidades de narrativas estruturadas para o Jornalismo Computacional: competências jornalísticas na elaboração de textos gerados com bancos de dados;10.17851/1983-3652.12.1.138-152;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q88166800;Inter-areal Balanced Amplification Enhances Signal Propagation in a Large-Scale Circuit Model of the Primate Cortex;10.1016/J.NEURON.2018.02.031;;;29576389;48.20;271;38;44;48;3;1;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q88665565;Interplay of activation kinetics and the derivative conductance determines resonance properties of neurons;10.1103/PHYSREVE.97.042408;;1712.00306;29758644;1.50;8;4;4;6;0;0;0;0;0;0;1712.00306;0
+http://www.wikidata.org/entity/Q89508272;Intrinsic and synaptic properties of hippocampal CA1 pyramidal neurons of the Wistar Audiogenic Rat (WAR) strain, a genetic model of epilepsy;10.1038/S41598-018-28725-Y;;;29991737;1.00;49;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q89844321;Evidence of regional associations between age-related inter-individual differences in resting-state functional connectivity and cortical thinning revealed through a multi-level analysis;10.1016/J.NEUROIMAGE.2020.116662;;;32088317;6.95;49;11;11;15;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q90192377;The effect of magnetization of natural rubber latex-coated magnetite nanoparticles on shear wave dispersion magneto-motive ultrasound;10.1088/1361-6560/AB4693;;;31539896;1.00;12;2;2;2;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q90248327;Method to assess the mismatch between the measured and nominal parameters of transcranial magnetic stimulation devices;10.1016/J.JNEUMETH.2019.03.021;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q90478507;Goalkeeper game: a new assessment tool for prediction of gait performance under complex condition in people with parkinson's disease;10.3389/FNAGI.2020.00050;;;32194393;3.75;61;2;4;4;0;0;0;0;0;0;0;2
+http://www.wikidata.org/entity/Q90581905;Memory corticalization triggered by REM sleep: mechanisms of cellular and systems consolidation;10.1007/S00018-018-2886-9;;;30054638;0.25;118;1;1;1;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q90876721;Topological phase transitions in functional brain networks;10.1103/PHYSREVE.100.032414;;;31640025;12.85;96;15;33;33;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q91057931;Asymmetrical voltage response in resonant neurons shaped by nonlinearities;10.1063/1.5110033;;1804.04748;31675799;0.50;39;1;2;2;0;0;1;0;0;0;1804.04748;0
+http://www.wikidata.org/entity/Q91886104;Modeling Hippocampal CA1 Gabaergic Synapses of Audiogenic Rats;10.1142/S0129065720500227;;;32285725;11.00;9;1;2;2;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q91923410;Optimal Interplay between Synaptic Strengths and Network Structure Enhances Activity Fluctuations and Information Propagation in Hierarchical Modular Networks;10.3390/BRAINSCI10040228;;1905.01181;32290351;2.00;24;5;5;7;0;0;0;0;0;0;1905.01181;0
+http://www.wikidata.org/entity/Q92176305;Conductance-based models and the fragmentation problem: A case study based on hippocampal CA1 pyramidal cell models and epilepsy;10.1016/J.YEBEH.2019.106841;;;31864945;0.75;11;1;2;2;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q92579197;Criticality between cortical states;10.1101/454934;;;0;14.00;32;5;10;11;1;0;2;0;0;0;0;0
+http://www.wikidata.org/entity/Q92579197;Criticality between cortical states;10.1103/PHYSREVLETT.122.208101;;;31172737;92.75;272;44;55;63;7;3;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q92806318;Oscillations and collective excitability in a model of stochastic neurons under excitatory and inhibitory coupling;10.1103/PHYSREVE.100.062416;;;31962449;2.00;9;3;3;3;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q92921497;Unilateral Brachial Plexus Lesion Impairs Bilateral Touch Threshold;10.3389/FNEUR.2019.00872;;;31456738;7.00;37;0;1;1;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q92989034;TPRM: Tensor Partition Regression Models with Appilcations in Imaging Biomarker Detection;10.1214/17-AOAS1116;;;30416640;7.00;34;0;1;1;1;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q93054004;Is somatosensory electrical stimulation effective in relieving spasticity? A systematic review;;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q93069626;Firing properties of ventral medullary respiratory neurons in sino-aortic denervated rats;10.1113/EP087150;;;30427561;1.75;6;2;3;3;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q93186050;Exploring the Phase-Locking Mechanisms Yielding Delayed and Anticipated Synchronization in Neuronal Circuits;10.3389/FNSYS.2019.00041;;;31496943;12.85;46;21;22;27;0;0;1;0;0;0;0;0
+http://www.wikidata.org/entity/Q95627972;Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering associated with negative feelings and contagion fear;10.1101/2020.05.19.20107078;;;0;111.80;40;33;45;46;12;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q96128036;Binding of Filamentous Actin to CaMKII as Potential Regulation Mechanism of Bidirectional Synaptic Plasticity by β CaMKII in Cerebellar Purkinje Cells;10.1038/S41598-020-65870-9;;;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
+http://www.wikidata.org/entity/Q97677936;Structural differences between REM and non-REM dream reports assessed by graph analysis;10.1371/JOURNAL.PONE.0228903;;;32701992;169.45;104;10;40;41;19;3;0;0;0;0;0;1
+http://www.wikidata.org/entity/Q98468815;Signatures of brain criticality unveiled by maximum entropy analysis across cortical states;10.1103/PHYSREVE.102.012408;;2001.11080;32795006;3.50;29;8;8;8;0;0;0;0;0;0;2001.11080;0
+http://www.wikidata.org/entity/Q98799515;Hawkes processes with variable length memory and an infinite number of components;10.48550/ARXIV.1410.5235;;1410.5235;0;0.00;0;0;0;0;0;0;0;0;0;0;0;0
